@@ -8,19 +8,19 @@ import router from '../router'
   增加服务的接口
 * */
 
-Vue.component('mv-modal', require('../components/modal.vue'));
+Vue.component('mv-modal', require('../marvel/modal.vue'));
 
 /*
   2、注册 组件容器
   展示组件的容器
 * */
-Vue.component('card', require('../components/card.vue'));
+Vue.component('card', require('../marvel/card.vue'));
 
 /*
   3、设置 当前项目用到的ui组件 2|3|10
   为了减少打包压缩文件数量
 * */
-const component = require.context('../components/cards', false, /card(2|3|10)\.vue$/);
+const component = require.context('../marvel/cards', false, /\.vue$/);
 const requireAll = context => context.keys().map(context);
 requireAll(component).forEach((card) => {
   const name = (card.name || /(\S+\/)(\S+)\.vue/.exec(card.hotID)[2]).toLowerCase();

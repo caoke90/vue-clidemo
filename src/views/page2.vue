@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>页面2</h1>
     <div v-for="(v,k) in card_group"  :key="k">
       <card :card="v"></card>
     </div>
@@ -14,13 +13,8 @@
       return {
         card_group: [
           {
-            card_type:2
-          },
-          {
-            card_type:2
-          },
-          {
-            card_type:3
+            card_type:1,
+            md_type:'404'
           }
         ]
       }

@@ -2,13 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // 同步页面
-const Hello = r => r(require('@/views/page1.vue'))
+const Hello = r => r(require('@/views/marvel.vue'))
 
 // 异步页面
-const page1 =r => require.ensure([], () => r(require('@/views/page1.vue')), 'page1')
+const index =r => require.ensure([], () => r(require('@/views/index.vue')), 'index')
+const marvel =r => require.ensure([], () => r(require('@/views/marvel.vue')), 'marvel')
 const page2 =r => require.ensure([], () => r(require('@/views/page2.vue')), 'page2')
-const info1 =r => require.ensure([], () => r(require('@/views/page1/info1.vue')), 'info1')
-const info2 =r => require.ensure([], () => r(require('@/views/page1/info2.vue')), 'info2')
 
 Vue.use(Router)
 
@@ -20,30 +19,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: '',
-      component: page1
+      name: 'index',
+      component: index
     },
     {
-      path: '/page1',
-
-      component: page1,
-      children:[
-        {
-          path: '',
-          name: 'page1',
-          component: info1
-        },
-        {
-          path: 'info1',
-          name: 'info1',
-          component: info1
-        },
-        {
-          path: 'info2',
-          name: 'info2',
-          component: info2
-        }
-      ]
+      path: '/marvel',
+      name: 'marvel',
+      component: marvel,
+    },
+    {
+      path: '/marvel/:pname/:cname',
+      name: 'marvelItem',
+      component: marvel,
     },
     {
       path: '/page2',
