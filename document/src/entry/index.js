@@ -15,6 +15,7 @@ Vue.use(ElementUI, { size: 'small' });
 
 //项目的入口
 import App from '../views/app'
+import A from '../api/a'
 
 /* eslint-disable no-new */
 new Vue({
