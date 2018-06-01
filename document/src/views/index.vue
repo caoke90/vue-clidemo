@@ -21,9 +21,7 @@
       }
     },
     mounted:function () {
-      this.$http.get('/api/mock').then(function (resp) {
-        console.log(resp)
-      })
+
     }
   }
 </script>

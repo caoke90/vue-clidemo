@@ -14,7 +14,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI, { size: 'small' });
 
 //项目的入口
-import App from '../views/app'
+import App from '../views/index'
 
 /* eslint-disable no-new */
 new Vue({
