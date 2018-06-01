@@ -24,7 +24,7 @@
       const the=this;
       if(!the.card.md_type){return;}
       require.ensure([], function(require){
-        const md =require('../md/'+the.card.md_type+'.md');
+        const md =require('@/marvel/md/'+the.card.md_type+'.md');
         the.card.md=md;
         the.key=the.key+1;
       });

@@ -3,7 +3,7 @@
 </template>
 <script>
 
-  import nonepng from '../assets/img/none.png';
+  import nonepng from './assets/img/none.png';
 
   var list = []
   var running = false;

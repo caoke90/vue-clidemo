@@ -171,8 +171,10 @@ productionSourceMap: false,
 ```
 
 ## 3、自动配置和打包优化
-* 3-1:根据entry目录，自动配置入口和html，以dev开头的文件不会发布到生产环境
-* 3-2:在better.js手动配置公共的js，格式如下
+* 3-1:根据entry目录，自动配置入口和html，以dev开头的文件不会发布到生产环境.
+* 3-2:以公共文件名开头的文件，回生产公共文件。如a.demo.js、b.demo.js生产公共文件a.js。
+* 3-3:子目录也遵循上述规范，也会生产对应的html、js、公共文件
+* 3-3:在better.js手动配置公共的js，格式如下
 ```
 const commonConfig={
   'demo':['demo1','demo2'],//demo1、demo2的公共demo.js
@@ -189,10 +191,30 @@ const path = require('path');
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const productName = require('../package').name||'template';
+/*
+* a.demo1.js、a.demo2.js
+* 表示存在公共的a.js,
+* 会生产 a.[md5].js a.demo1.[md5].js a.demo2.[md5].js 3个文件
+*
+* */
 //公共模块的配置
-const commonConfig={
-  'demo':['demo1','demo2'],//demo1、demo2的公共demo.js
-  // 'vendor':true,//所有页面的公共demo.js
+const commonConfig=getcommons();
+
+function getcommons(){
+  const obj=getproEntry();
+  const commonCache={}
+  const commonConfig={}
+  for(let ke in obj){
+    ke.replace(/([a-z]+)\./i,function (m,p1) {
+      if(!commonCache[p1]){commonCache[p1]=[];}
+      commonCache[p1].push(ke)
+      if(commonCache[p1].length==2){
+        commonConfig[p1]=commonCache[p1]
+      }
+    })
+  }
+
+  return commonConfig;
 }
 function getCommonsChunk() {
   const data=[]
@@ -204,24 +226,15 @@ function getCommonsChunk() {
           minChunks:2,
           chunks:commonConfig[name]
         }))
-    }else if(commonConfig[name]===true){
-      data.push(
-        new webpack.optimize.CommonsChunkPlugin({
-          name: name,
-          minChunks:2,
-          children: true,
-        }))
     }
   }
   return data;
 }
 
-function getCommonBy(name) {
+function getCommonBy(cname) {
   const commons=[]
   for(let name in commonConfig){
-    if(commonConfig[name]===true){
-      commons.push(name)
-    }else if(commonConfig[name].indexOf(name)>-1){
+    if(commonConfig[name].length>0&&commonConfig[name].indexOf(cname)>-1){
       commons.push(name)
     }
   }
@@ -231,23 +244,28 @@ function getCommonBy(name) {
   获取入口entry的所有js文件
  */
 function getdevEntry() {
-  const arr = glob.sync(__dirname+'/../src/entry/*.js')
+  const arr = glob.sync(__dirname+'/../src/entry/**/*.js')
+
   const entry={}
   arr.forEach(function (file) {
-    file.replace(/([^/]+)\.[a-z]+$/,function (m,p1) {
+    file.replace(/entry\/(.+)\.js$/,function (m,p1) {
       entry[p1]=file
     })
   })
   return entry;
 }
+//获取生产环境入口配置
 function getproEntry() {
-  const arr = glob.sync(__dirname+'/../src/entry/!(dev)*.js')
+  const arr = glob.sync(__dirname+'/../src/entry/**/!(dev.)*.js')
+
   const entry={}
   arr.forEach(function (file) {
-    file.replace(/([^/]+)\.[a-z]+$/,function (m,p1) {
+    file.replace(/entry\/(.+)\.js$/,function (m,p1) {
       entry[p1]=file
     })
   })
+
+
   return entry;
 }
 
@@ -260,7 +278,7 @@ function getdevHtmlWebpack() {
   for(let name in entry){
     htmlConfig.push(new HtmlWebpackPlugin({
       title:name,
-      filename: name+'.html',
+      filename: productName+'/'+name+'.html',
       template: 'index.html',
       inject: true,
       chunks:[name],
@@ -287,8 +305,8 @@ function getproHtmlWebpack() {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
-      chunks:[name,...cmchunks],
-      chunksSortMode: 'dependency'
+      chunks:[...cmchunks,name],
+      chunksSortMode: 'manual'
     }))
   }
   return htmlConfig;
@@ -302,4 +320,52 @@ module.exports={
 };
 
 
+```
+
+## 4、入口模板
+```
+//引入公共配置
+import Vue from '../common/pcbase';
+/*
+  2、注册 组件容器
+  展示组件的容器
+* */
+Vue.component('card', require('../components/card.vue'));
+
+//1、导入elm ui
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI, { size: 'small' });
+
+//项目的入口
+import App from '../views/demo2'
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  components: { App },
+  template: ' <div><mv-modal></mv-modal><App/></div>'
+})
+
+```
+## 5、打包构建速度优化
+使用多线程压缩打包插件 webpack-parallel-uglify-plugin
+```
+const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin')
+
+ new AssetsPlugin({
+      prettyPrint:true,
+      fullpath:true
+    }),
+    new ParallelUglifyPlugin({
+      cacheDir: '.cache/',
+      uglifyJS:{
+        output: {
+          comments: false
+        },
+        compress: {
+          warnings: false
+        }
+      }
+    }),
 ```

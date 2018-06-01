@@ -12,8 +12,15 @@ const portfinder = require('portfinder')
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
+const productName = require('../package').name||'template';
+const test = require('./better');
+
+const entry=test.getdevEntry()
+
+const htmlConfig=test.getdevHtmlWebpack();
 
 const devWebpackConfig = merge(baseWebpackConfig, {
+  entry: entry,
   module: {
     rules: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap, usePostCSS: true })
   },
@@ -25,7 +32,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [
-        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, 'index.html') },
+        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, productName+'/dev.list.html') },
       ],
     },
     hot: true,
@@ -52,11 +59,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new webpack.NamedModulesPlugin(), // HMR shows correct file names in console on update.
     new webpack.NoEmitOnErrorsPlugin(),
     // https://github.com/ampedandwired/html-webpack-plugin
-    new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: 'index.html',
-      inject: true
-    }),
+    ...htmlConfig,
     // copy custom static assets
     new CopyWebpackPlugin([
       {

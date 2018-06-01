@@ -7,12 +7,17 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node build/build.js",
+    "postdeploy": "node build/ftp.js"
   },
   "dependencies": {
+    "assets-webpack-plugin": "^3.6.0",
     "axios": "^0.18.0",
     "element-ui": "^2.3.8",
+    "ftp-deploy": "^2.1.1",
     "glob": "^7.1.2",
+    "inquirer": "^5.2.0",
     "less": "^3.0.2",
     "less-loader": "^4.1.0",
     "node-sass": "^4.9.0",
@@ -22,7 +27,8 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "webpack-parallel-uglify-plugin": "^1.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

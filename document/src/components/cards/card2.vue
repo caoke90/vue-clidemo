@@ -10,9 +10,9 @@
   </div>
 </template>
 <script>
-  const file=(resolve)=>require(['../demo/file.vue'],resolve)
-  const pswp=(resolve)=>require(['../demo/pswp.vue'],resolve)
-  const storage=(resolve)=>require(['../demo/storage.vue'],resolve)
+  const file=(resolve)=>require(['@/marvel/demo/file.vue'],resolve)
+  const pswp=(resolve)=>require(['@/marvel/demo/pswp.vue'],resolve)
+  const storage=(resolve)=>require(['@/marvel/demo/storage.vue'],resolve)
 
   const components={
     file,pswp,storage

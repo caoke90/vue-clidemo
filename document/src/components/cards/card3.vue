@@ -13,7 +13,7 @@
 </template>
 <script>
 
-  import Bus from '../modals/pswp'
+  import Bus from '@/marvel/modals/pswp'
   export default {
     data() {
       return {

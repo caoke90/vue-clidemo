@@ -8,13 +8,8 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
-  entry: {
-    app: './src/entry/main.js'
-  },
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
@@ -42,11 +37,15 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader',
+        include: [resolve('src')],
         options: vueLoaderConfig
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
+        options: {
+          cacheDirectory: true
+        },
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {

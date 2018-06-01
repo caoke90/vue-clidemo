@@ -4,7 +4,7 @@
 
 <script>
   //我把它定义成一个业务组件
-  const component = require.context('../marvel/cards', false, /\.vue$/);
+  const component = require.context('./cards', false, /\.vue$/);
   const components = {};
   component.keys().map(component).forEach((card)=>{
     components[card.name]=card;

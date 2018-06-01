@@ -1,4 +1,4 @@
-<!--基础组件demo-->
+
 <template>
   <div class="card demo">
     <div class="card-title">我是一个基础组件demo，展示组件的数据</div>
@@ -7,6 +7,15 @@
   </div>
 </template>
 <script>
+  /*
+* 必须字段:
+* 1、name:'demo'
+* 2、传入的props
+  card：{
+    card_type:'demo',
+  ...
+  }
+*/
   export default {
     data() {
       return {};

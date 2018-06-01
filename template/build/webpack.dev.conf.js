@@ -12,6 +12,7 @@ const portfinder = require('portfinder')
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
+const productName = require('../package').name||'template';
 const test = require('./better');
 
 const entry=test.getdevEntry()
@@ -31,7 +32,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [
-        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, 'rtdemo.html') },
+        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, productName+'/dev.list.html') },
       ],
     },
     hot: true,
