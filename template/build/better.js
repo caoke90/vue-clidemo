@@ -30,7 +30,12 @@ function getcommons(){
   return commonConfig;
 }
 function getCommonsChunk() {
-  const data=[]
+  const data=[
+    new webpack.optimize.CommonsChunkPlugin({
+      names: "vendor",
+      minChunks: Infinity
+    }),
+  ]
   for(let name in commonConfig){
     if(Array.isArray(commonConfig[name])){
       data.push(
@@ -71,7 +76,9 @@ function getdevEntry() {
 function getproEntry() {
   const arr = glob.sync(__dirname+'/../src/entry/**/!(dev.)*.js')
 
-  const entry={}
+  const entry={
+    vendor:['vue']
+  }
   arr.forEach(function (file) {
     file.replace(/entry\/(.+)\.js$/,function (m,p1) {
       entry[p1]=file
@@ -118,7 +125,7 @@ function getproHtmlWebpack() {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
-      chunks:[...cmchunks,name],
+      chunks:['vendor',...cmchunks,name],
       chunksSortMode: 'manual'
     }))
   }
