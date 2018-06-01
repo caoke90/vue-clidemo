@@ -3,7 +3,7 @@ const FtpDeploy = require('ftp-deploy');
 const ora = require('ora');
 
 const PROJECT_NAME = require('../package.json').name;
-const REMOTE_PATH = '/root/dist/';
+const REMOTE_PATH = '/root/node-server/';
 
 inquirer.prompt([{
   type: 'confirm',
@@ -32,12 +32,12 @@ inquirer.prompt([{
       const config = {
         user: 'root',
         host: answer.host,
-        password: answer.password,
+        password: 'caoke907167',
         port: 21,
-        localRoot: __dirname+'/../../dist',
+        localRoot: __dirname+'/../../node-server/',
         remoteRoot: REMOTE_PATH,
-        include: ['*', '**/*'],
-        exclude: ['.git', '.idea', 'tmp/*','node_modules'],
+        include: [ '*','**/*'],
+        exclude: ['.git', '.idea', 'tmp/*','node_modules/**/*', '.bat'],
         deleteRoot: true                // delete existing files at destination before uploading
       };
       ftpDeploy.deploy(config, function (err) {
