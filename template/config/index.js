@@ -58,7 +58,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../../dist'),
     assetsSubDirectory: productName,
-    assetsPublicPath: 'http://www.a.com/',
+    assetsPublicPath: process.env.assetsPublicPath || '/',
 
     /**
      * Source Maps

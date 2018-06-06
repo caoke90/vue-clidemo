@@ -8,17 +8,15 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "test": "node build/deploy.js",
-    "deploy": "node build/deploy.js",
-    "postdeploy": "node build/ftp.js"
+    "deployTest": "cross-env assetsPublicPath=//zx.test.17zuoye.net/ node build/build.js",
+    "deployOnline": "cross-env assetsPublicPath=//zx.17zuoye.com/ node build/build.js"
   },
   "dependencies": {
     "assets-webpack-plugin": "^3.6.0",
     "axios": "^0.18.0",
     "element-ui": "^2.3.8",
-    "ftp-deploy": "^2.1.1",
+    "cross-env": "^5.1.6",
     "glob": "^7.1.2",
-    "inquirer": "^5.2.0",
     "less": "^3.0.2",
     "less-loader": "^4.1.0",
     "node-sass": "^4.9.0",
