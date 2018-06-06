@@ -37,7 +37,7 @@ inquirer.prompt([{
         localRoot: __dirname+'/../../dist',
         remoteRoot: REMOTE_PATH,
         include: ['*', '**/*'],
-        exclude: ['.git', '.idea', 'tmp/*'],
+        exclude: ['.git', '.idea', 'tmp/*','node_modules'],
         deleteRoot: true                // delete existing files at destination before uploading
       };
       ftpDeploy.deploy(config, function (err) {

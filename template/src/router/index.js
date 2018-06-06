@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // 异步页面
-const list =r => require.ensure([], () => r(require('@/views/list.vue')), 'rt-list')
 const demo1 =r => require.ensure([], () => r(require('@/views/demo1.vue')), 'rt-demo1')
 const demo2 =r => require.ensure([], () => r(require('@/views/demo2.vue')), 'rt-demo2')
 
@@ -17,7 +16,7 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: list
+      component: demo1,
     },
     {
       path: '/demo1',

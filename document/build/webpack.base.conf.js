@@ -17,6 +17,10 @@ module.exports = {
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath
   },
+  externals: {
+    'vue': "Vue",
+    // 'element-ui': 'element-ui'
+  },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
@@ -26,14 +30,7 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.md$/,
-        use: [
-          {
-            loader: "text-loader"
-          }
-        ]
-      },
+
       {
         test: /\.vue$/,
         loader: 'vue-loader',

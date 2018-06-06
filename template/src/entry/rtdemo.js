@@ -5,7 +5,7 @@ import router from '../router'
 /*
   注册 组件容器
 * */
-Vue.component('card', require('../components/card.vue'));
+// Vue.component('card', require('../components/card.vue'));
 
 
 // 导入elm ui

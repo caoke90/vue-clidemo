@@ -29,21 +29,30 @@ function getcommons(){
 
   return commonConfig;
 }
+
 function getCommonsChunk() {
+  const obj=getproEntry()
+  const arr=Object.keys(obj)
+  console.log(arr)
   const data=[
-    new webpack.optimize.CommonsChunkPlugin({
-      names: "vendor",
-      minChunks: Infinity
-    }),
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: "common",
+    //   chunks:arr
+    // }),
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: "common1",
+    //   chunks:['common1','rtdemo']
+    // }),
   ]
   for(let name in commonConfig){
     if(Array.isArray(commonConfig[name])){
       data.push(
         new webpack.optimize.CommonsChunkPlugin({
           name: name,
-          minChunks:2,
+          minChunks:commonConfig[name].length,
           chunks:commonConfig[name]
-        }))
+        })
+      )
     }
   }
   return data;
@@ -77,7 +86,7 @@ function getproEntry() {
   const arr = glob.sync(__dirname+'/../src/entry/**/!(dev.)*.js')
 
   const entry={
-    vendor:['vue']
+
   }
   arr.forEach(function (file) {
     file.replace(/entry\/(.+)\.js$/,function (m,p1) {
@@ -89,17 +98,26 @@ function getproEntry() {
   return entry;
 }
 
+
 /*
   生产html配置
  */
+//是否存在模板
+const fs=require("fs")
+function getTemplate(name){
+  const pt=__dirname+'/../src/tpl/'+name+'.html'
+  if(fs.existsSync(pt)){
+    return pt;
+  }
+}
 function getdevHtmlWebpack() {
   const entry=getdevEntry();
   const htmlConfig=[]
   for(let name in entry){
     htmlConfig.push(new HtmlWebpackPlugin({
-      title:name,
+      title:productName,
       filename: productName+'/'+name+'.html',
-      template: 'index.html',
+      template: getTemplate(name)||'index.html',
       inject: true,
       chunks:[name],
       chunksSortMode: 'dependency'
@@ -107,16 +125,19 @@ function getdevHtmlWebpack() {
   }
   return htmlConfig;
 }
+
 function getproHtmlWebpack() {
   const entry=getproEntry();
   const htmlConfig=[]
 
   for(let name in entry){
     const cmchunks=getCommonBy(name);
+
     htmlConfig.push(new HtmlWebpackPlugin({
-      title:name,
+      title:productName,
+      productName:productName,
       filename: path.resolve(__dirname, '../../dist/'+productName+'/'+name+'.html'),
-      template: 'index.html',
+      template: getTemplate(name)||'index.html',
       inject: true,
       minify: {
         removeComments: true,
@@ -125,7 +146,7 @@ function getproHtmlWebpack() {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
-      chunks:['vendor',...cmchunks,name],
+      chunks:[...cmchunks,name],
       chunksSortMode: 'manual'
     }))
   }
