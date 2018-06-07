@@ -35,26 +35,31 @@ function getCommonsChunk() {
   const arr=Object.keys(obj)
   console.log(arr)
   const data=[
-    // new webpack.optimize.CommonsChunkPlugin({
-    //   name: "common",
-    //   chunks:arr
-    // }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "vendor",
+      minChunks: Infinity,
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "manifest",
+      chunks: ['vendor'],
+      // minChunks:Infinity
+    }),
     // new webpack.optimize.CommonsChunkPlugin({
     //   name: "common1",
     //   chunks:['common1','rtdemo']
     // }),
   ]
-  for(let name in commonConfig){
-    if(Array.isArray(commonConfig[name])){
-      data.push(
-        new webpack.optimize.CommonsChunkPlugin({
-          name: name,
-          minChunks:commonConfig[name].length,
-          chunks:commonConfig[name]
-        })
-      )
-    }
-  }
+  // for(let name in commonConfig){
+  //   if(Array.isArray(commonConfig[name])){
+  //     data.push(
+  //       new webpack.optimize.CommonsChunkPlugin({
+  //         name: name,
+  //         minChunks:commonConfig[name].length,
+  //         chunks:commonConfig[name]
+  //       })
+  //     )
+  //   }
+  // }
   return data;
 }
 
@@ -86,7 +91,7 @@ function getproEntry() {
   const arr = glob.sync(__dirname+'/../src/entry/**/!(dev.)*.js')
 
   const entry={
-
+    vendor:["vue"]
   }
   arr.forEach(function (file) {
     file.replace(/entry\/(.+)\.js$/,function (m,p1) {
@@ -146,7 +151,7 @@ function getproHtmlWebpack() {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
-      chunks:[...cmchunks,name],
+      chunks:['manifest','vendor',...cmchunks,name],
       chunksSortMode: 'manual'
     }))
   }

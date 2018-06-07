@@ -20,4 +20,3 @@ new Vue({
   components: { App },
   template: ' <div><mv-modal></mv-modal><App/></div>'
 })
-console.log(111)

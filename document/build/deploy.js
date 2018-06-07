@@ -40,18 +40,22 @@ if(exec('git branch').indexOf('* master')>-1){
   const postTag=getposttag(tagArr);
   const preTag=getpretag(tagArr,postTag);
 
+  if(preTag){
+    exec('git checkout '+preTag)
+    console.log('1、打包master分支，tag：'+preTag)
+    log=exec('npm run build')
+    console.log(log)
 
-  exec('git checkout '+preTag)
-  console.log('1、打包master分支，tag：'+preTag)
-  log=exec('npm run build')
-  console.log(log)
-
-  exec('git checkout '+postTag)
-  console.log('2、打包master分支，tag：'+postTag)
-  log=exec('npm run build')
-  console.log(log)
+    if(preTag!=postTag){
+      exec('git checkout '+postTag)
+      console.log('2、打包master分支，tag：'+postTag)
+      log=exec('npm run build')
+      console.log(log)
+    }
+    console.log('tag：'+preTag+"、"+postTag+"打包完成")
+  }
 
   exec('git checkout master')
-  console.log('tag：'+preTag+"、"+postTag+"打包完成")
+
 
 }

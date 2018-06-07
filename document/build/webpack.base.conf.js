@@ -18,7 +18,7 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   externals: {
-    'vue': "Vue",
+    // 'vue': "Vue",
     // 'element-ui': 'element-ui'
   },
   resolve: {
