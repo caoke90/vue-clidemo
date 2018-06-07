@@ -38,6 +38,11 @@ module.exports = {
         options: vueLoaderConfig
       },
       {
+        test: /\.md$/,
+        loader: 'text-loader',
+        include: [resolve('src')]
+      },
+      {
         test: /\.js$/,
         loader: 'babel-loader',
         options: {
