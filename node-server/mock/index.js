@@ -2,7 +2,7 @@ module.exports=[
   {
 
     //本地的url =》 本地的url
-    "/":"/template/a.demo1.html",
+    "/":"/document/index.html",
     "/admin/mobile_page/edit":"/cardVue/index.html",
     "/cardVue/demo.html?preview=1":"/cardVue/demo.html?preview=1",
     "/all":"/cardVue/all.html",

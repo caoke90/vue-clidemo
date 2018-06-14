@@ -10,7 +10,7 @@
         background-color="#545c64"
         text-color="#fff"
         active-text-color="#ffd04b">
-        <el-menu-item index="index">17作业组件文档平台</el-menu-item>
+        <el-menu-item index="index">17作业组件平台</el-menu-item>
         <el-menu-item index="marvel">marvel组件</el-menu-item>
         <el-menu-item index="page2">源码下载</el-menu-item>
       </el-menu>

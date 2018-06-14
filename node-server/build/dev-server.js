@@ -1,7 +1,7 @@
 
 const path = require('path');
 const express = require('express');
-
+const proxyMiddleware = require('http-proxy-middleware');
 // default port where dev server listens for incoming traffic
 const port = process.env.PORT || 80;
 
@@ -189,7 +189,7 @@ Object.keys(mockUrl).forEach(function(url) {
 
 });
 
-app.use("/", express.static('../dist'));
+app.use("/", express.static(__dirname+'/../../dist'));
 
 function getIPAdress() {
     var interfaces = require('os').networkInterfaces();
@@ -215,13 +215,28 @@ const readyPromise = new Promise(resolve => {
 	}
 
 });
+var http = require('http');
+var https = require('https');
+var privateKey  = fs.readFileSync(__dirname+'/private.pem', 'utf8');
+var certificate = fs.readFileSync(__dirname+'/file.crt', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
 
-var server = app.listen(port);
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
+var SSLPORT = 443;
+
+httpServer.listen(port, function() {
+    console.log('HTTP Server is running on: http://localhost:%s', port);
+});
+httpsServer.listen(SSLPORT, function() {
+    console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
+});
 
 module.exports = {
 	ready: readyPromise,
 	close: () => {
         console.log("close")
-		server.close();
+
 	}
 };

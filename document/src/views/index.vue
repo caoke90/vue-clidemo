@@ -1,6 +1,6 @@
 <template>
-  <div class="main">
-    <!--card 容器层-->
+  <div class="container">
+    <h2 style="line-height: 50px;">编辑左边，右边发生变化</h2>
     <div v-for="(v,k) in card_group"  :key="k">
       <card :card="v"></card>
     </div>
@@ -8,28 +8,29 @@
 </template>
 
 <script>
+
   export default {
-    name: 'HelloWorld',
     data () {
       return {
-        card_group:[
+        card_group: [
           {
-            card_type:1,
-            md_type:'index'
+            card_type:"edit",
+            edit_type:"card11"
           }
         ]
       }
     },
-    mounted:function () {
+    computed:{
 
     }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  /*当页面样式*/
-  .main{
-    padding: 0 10%;
+<style rel="stylesheet/scss" type="text/css" lang="scss" scoped>
+  .container{
+    padding-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
   }
 </style>

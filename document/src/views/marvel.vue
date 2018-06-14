@@ -14,8 +14,7 @@
             <template slot="title">
               <i class="el-icon-document"></i>基础组件
             </template>
-            <el-menu-item index="">暂无</el-menu-item>
-            <el-menu-item index="card1">card1（markdown文档展示）</el-menu-item>
+            <el-menu-item index="card11">card11（题库9种）</el-menu-item>
 
           </el-submenu>
           <el-submenu index="base">
@@ -56,6 +55,7 @@
         <div v-for="(v,k) in card_group"  :key="k">
           <card :card="v" ></card>
         </div>
+
       </div>
     </div>
   </div>
@@ -64,23 +64,30 @@
 
 <script>
   const map={
-    hello:{
-      card_group:[
+    hello:[
+      {
+        card_type:1,
+        md_type:'hello'
+      }
+    ],
+    cards:{
+      card1:[
         {
           card_type:1,
-          md_type:'hello'
+          md_type:'card1'
         }
-      ]
-    },
-    cards:{
-      card1:{
-        card_group:[
-          {
-            card_type:1,
-            md_type:'card1'
-          }
-        ]
-      },
+      ],
+      card11:[
+
+        {
+          card_type:1,
+          md_type:'card11'
+        },
+        {
+          card_type:'edit',
+          edit_type:"card11"
+        },
+      ],
     },
     modals:{
 
@@ -101,12 +108,12 @@
         const {pname,cname}=this.$route.params;
 
         if(!pname&&!cname){
-          return map.hello.card_group;
+          return map.hello;
         }
         if(map[pname]&&map[pname][cname]){
-          return map[pname][cname].card_group;
+          return map[pname][cname];
         }else{
-          if(pname=='cards'||pname=='tools'||pname=='modals'){
+          if(pname=='tools'||pname=='modals'){
             return [
               {
                 card_type:2,
@@ -168,4 +175,5 @@
   .g-sd1{position:relative;float:left;width:20%;margin-right:-20%;}
   .g-mn1{float:right;width:100%;}
   .g-mn1c{margin-left:20%;padding: 0 20px;}
+
 </style>

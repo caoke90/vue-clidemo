@@ -369,3 +369,21 @@ const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin')
       }
     }),
 ```
+## 6、本地mock
+原理：路由的rewrite，以及代理插件
+1、是否以http开头，用代理转发到url
+2、以"/"开头，则在本地目录查找，是否存在该文件，返回该文件的json数据
+3、不存在就做路由转发
+```
+module.exports=[
+  {
+
+    //本地的url =》 本地的url
+    // "/":"/mteacher/tcbag.html",
+  },{
+    //线上的url =》 本地的mock
+    "/ok":"/ok",
+  }
+]
+
+```
