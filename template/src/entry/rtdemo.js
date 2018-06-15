@@ -5,13 +5,15 @@ import router from '../router'
 /*
   注册 组件容器
 * */
-// Vue.component('card', require('../components/card.vue'));
+Vue.component('card', require('../components/card.vue'));
 
 
 // 导入elm ui
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI, { size: 'small' });
+import { Menu,MenuItem,Submenu} from 'element-ui';
+Vue.use( Menu);
+Vue.use( MenuItem);
+Vue.use( Submenu);
+Vue.prototype.$ELEMENT = { size: 'small' }
 
 //项目的入口
 import App from '../views/rtdemo'

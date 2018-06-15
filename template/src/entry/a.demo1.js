@@ -6,10 +6,6 @@ import Vue from '../common/pcbase';
 * */
 Vue.component('card', require('../components/card.vue'));
 
-//1、导入elm ui
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI, { size: 'small' });
 
 //项目的入口
 import App from '../views/demo1'
