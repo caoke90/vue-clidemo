@@ -6,7 +6,7 @@
 
 <script>
 
-  // console.log(md)
+  import axios from 'axios';
   import VueMarkdown from 'vue-markdown';
 
   require('@/directive/highlight')
@@ -18,16 +18,17 @@
     data:function(){
       return {
         key:0
+
       }
     },
     created:function () {
       const the=this;
       if(!the.card.md_type){return;}
-      require.ensure([], function(require){
-        const md =require('@/marvel/md/'+the.card.md_type+'.md');
-        the.card.md=md;
-        the.key=the.key+1;
-      });
+      axios.get('/document/md/'+the.card.md_type+'.md').then((resp) =>{
+        this.card.md=resp.data;
+        this.key+=1;
+      })
+
     }
   }
 </script>
