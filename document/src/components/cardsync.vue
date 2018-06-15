@@ -5,6 +5,7 @@
 <script>
   //我把它定义成一个业务组件
   // const component = require.context('./cards', false, /\.vue$/);
+
   const components = {
     card1:(resolve)=>{
       require(['./cards/card1.vue'], resolve)

@@ -5,9 +5,9 @@ import Router from 'vue-router'
 const Hello = r => r(require('@/views/marvel.vue'))
 
 // 异步页面
-const index =r => require.ensure([], () => r(require('@/views/index.vue')), 'rt-index')
-const marvel =r => require.ensure([], () => r(require('@/views/marvel.vue')), 'marvel')
-const page2 =r => require.ensure([], () => r(require('@/views/page2.vue')), 'page2')
+const index =r => require(['@/views/index.vue'],r);
+const marvel =r => require(['@/views/marvel.vue'],r);
+const page2 =r => require(['@/views/page2.vue'],r);
 
 Vue.use(Router)
 

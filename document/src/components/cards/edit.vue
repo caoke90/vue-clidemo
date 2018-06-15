@@ -12,8 +12,7 @@
   </div>
 </template>
 <script>
-  // const card11Arr=require('@/marvel/cards/card11.js')
-  // storage.setData('cardCache',card11Arr)
+
   import axios from 'axios';
   import storage from '@/utils/storage'
   export default {
