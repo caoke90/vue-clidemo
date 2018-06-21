@@ -15,7 +15,7 @@
     if (r != null) return unescape(r[2]); return null; // 返回参数值
   }
   import storage from '@/utils/storage'
-  const model=require('../api/demo.js')
+  import axios from 'axios';
   export default {
     data () {
       return {
@@ -34,9 +34,11 @@
           }
         },false)
       }else{
-        model.get(location.hash.substr(1).replace('card','')).then((data)=>{
-          this.card_group=data;
+        var hash=location.hash.substr(1)||'card';
+        axios.get('/document/mock/'+hash+'.js').then((resp)=>{
+          this.card_group=resp.data;
         })
+
       }
 
     }

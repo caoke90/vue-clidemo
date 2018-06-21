@@ -10,9 +10,8 @@
 </template>
 <script>
 
-  const storage = require('@/utils/storage');
+  import storage from '../../utils/storage';
 
-  console.log(storage)
   export default {
     data() {
       return {

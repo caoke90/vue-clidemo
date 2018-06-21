@@ -5,5 +5,6 @@
   })
 * */
 import Bus from '../bus';
+
 Bus.addModalComponent(require('./file.vue'))
 export default Bus;
