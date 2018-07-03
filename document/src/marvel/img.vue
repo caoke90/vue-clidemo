@@ -1,5 +1,6 @@
 <template>
-  <img :src="lazysrc"/>
+  <img v-if="src" :src="lazysrc"/>
+  <div v-else v-html="lazyhtml"></div>
 </template>
 <script>
 
@@ -56,6 +57,19 @@
       }
     },
     computed: {
+      lazyhtml() {
+
+        //img标签要把src取出来
+        const srcReg = /src="([^"]*)"/g;
+        if(!this.isShow) {
+          let srcPel = 'src="'+nonepng+'"';
+          return this.html.replace(srcReg,srcPel)
+        }
+        else {
+          return this.html;
+        }
+
+      },
       lazysrc() {
         if (cache.indexOf(this.src) > -1) {
           return this.src;
@@ -70,6 +84,10 @@
     },
 
     props: {
+      html:{
+        type: String,
+        default: ''
+      },
       src: {
         type: String,
         default: ''
@@ -78,3 +96,6 @@
   };
 </script>
 
+<style>
+
+</style>

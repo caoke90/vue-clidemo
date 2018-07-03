@@ -11,7 +11,6 @@
         callback: null
       };
     },
-    props: ['card'],
     methods: {
       change: function (e) {
         var self = this;
