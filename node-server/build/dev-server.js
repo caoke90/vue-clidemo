@@ -9,7 +9,10 @@ const mock = require("../mock/index.js");
 const app = express();
 
 mock(app)
+var compression = require('compression')
 
+// 启用gzip
+app.use(compression());
 
 app.use("/", express.static('../dist'));
 
