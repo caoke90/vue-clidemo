@@ -1,0 +1,30 @@
+{
+    "result":"success",
+    "success":"ok",
+    "data":{
+        "blocks":[
+            {
+                "name":"口语练习",
+                "key":"catalog_id——123231",
+                "category":{
+                    "type":"sync",
+                    "name":"词汇练习",
+                    "book_id":"BK_20300001761501",
+                    "category_id":"a82446b8d412a3dda3c2c79b68bae37e",
+                    "clazz_id":"1",
+                    "practice_type":"sync"
+                },
+                "items":[
+                    {
+                        "id":"Q_20306092258831-9",
+                        "duration":28,
+                        "type":20888,
+                        "count":1
+                    }
+                ]
+            }
+        ],
+        "duration":56,
+        "question_count":2
+    }
+}

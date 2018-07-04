@@ -1,0 +1,1565 @@
+{
+    "result": "success",
+    "success": "ok",
+    "data": {
+        "question_boxs": [
+            {
+                "id": "Q_20312094486561-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u5bf9\u8bdd\uff0c\u6839\u636e\u6240\u542c\u5185\u5bb9\u53e3\u5934\u56de\u7b54\u95ee\u9898\u3002\u542c\u5bf9\u8bdd\u524d\uff0c\u4f60\u67095\u79d2\u949f\u65f6\u95f4\u9605\u8bfb\u95ee\u9898\u3002\u542c\u5230\u5f55\u97f3\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4f60\u572815\u79d2\u949f\u5185\u53e3\u5934\u56de\u7b54\u95ee\u9898\u5e76\u5b8c\u6210\u5f55\u97f3\u3002\u6bcf\u6bb5\u5bf9\u8bdd\u4f60\u5c06\u542c\u4e24\u904d\u3002",
+                "notFitMobile": 0,
+                "seconds": 79,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "What should Tony do?",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 15,
+                                "variables": [
+                                    "<a>=have| take",
+                                    "<b>=Tony| He"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "<a> a good rest and <a> some medicine.| <a> some medicine and <a> a good rest.| <b> should <a> a good rest and <a> some medicine.| <b> should <a> some medicine and <a> a good rest."
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 5,
+                                "listenFile": {
+                                    "fileId": "5a632bfdb1e48a741c3de576",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632bfdb1e48a741c3de576.sy3",
+                                    "filename": "10.mp3",
+                                    "seconds": 39
+                                },
+                                "contentDesc": "<p>\u200bW: Tony, you look tired today. What's the matter?<br>M: I have a cold and I don't want to do anything.<br>W: You'd better take a good rest and have some medicine.<br>M: OK, I will. Thanks a lot, Jane.<\/p>",
+                                "answers": [
+                                    {
+                                        "answer": "\u200bTake| have a good rest and have| take some medicine.<p>Have| take some medicine and take| have a good rest.<\/p><p>Tony| He should take| have a good rest and have| take some medicine.<\/p><p>Tony| He should have| take some medicine and take| have a good rest.<\/p>",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"<a> a good rest and <a> some medicine | <a> some medicine and <a> a good rest | <b> should <a> a good rest and <a> some medicine | <b> should <a> some medicine and <a> a good rest\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(<a> a good rest and <a> some medicine | <a> some medicine and <a> a good rest | <b> should <a> a good rest and <a> some medicine | <b> should <a> some medicine and <a> a good rest)\\\"<\/s>\\\";\\n<a>=(have| take);\\n<b>=(Tony| He);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094486561",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303236,
+                "tagCode": "LkQLDAQ",
+                "createdAt": "2018-01-20T19:52:01.254+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:22.708+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:12.760+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a632257b1e48a741c3c351a",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632257b1e48a741c3c351a.sy3",
+                    "filename": "1.mp3",
+                    "seconds": 20
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094622250-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u5bf9\u8bdd\uff0c\u6839\u636e\u6240\u542c\u5185\u5bb9\u53e3\u5934\u56de\u7b54\u95ee\u9898\u3002\u542c\u5bf9\u8bdd\u524d\uff0c\u4f60\u67095\u79d2\u949f\u65f6\u95f4\u9605\u8bfb\u95ee\u9898\u3002\u542c\u5230\u5f55\u97f3\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4f60\u572815\u79d2\u949f\u5185\u53e3\u5934\u56de\u7b54\u95ee\u9898\u5e76\u5b8c\u6210\u5f55\u97f3\u3002\u6bcf\u6bb5\u5bf9\u8bdd\u4f60\u5c06\u542c\u4e24\u904d\u3002",
+                "notFitMobile": 0,
+                "seconds": 83,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "What is wrong with Tom?",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 15,
+                                "variables": [
+                                    "<a>= Tom's| His",
+                                    "<b>=He| Tom"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "<a> left leg was hurt.| <b> hurt his left leg.| <a> left leg was hurt in the football game.| <b> hurt his left leg in the football game."
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 5,
+                                "listenFile": {
+                                    "fileId": "5a632e65b1e48a118f0d3d66",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632e65b1e48a118f0d3d66.sy3",
+                                    "filename": "20.mp3",
+                                    "seconds": 43
+                                },
+                                "contentDesc": "\u200bM: Mary, would you like to go to the park with us this Sunday?<p>W: I'd like to, but Mom asked me to see my cousin Tom.<\/p><p>M: It doesn't matter. What's wrong with Tom?<\/p><p>W: I heard that he hurt his left leg in the football game.<\/p><p>M: I'm sorry to hear that.<\/p>",
+                                "answers": [
+                                    {
+                                        "answer": "\u200bTom's| His left leg was hurt.<p>He| Tom hurt his left leg.<\/p><p>Tom's| His left leg was hurt in the football game.<\/p><p>He| Tom hurt his left leg in the football game.<\/p>",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"<a> left leg was hurt | <b> hurt his left leg | <a> left leg was hurt in the football game | <b> hurt his left leg in the football game\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(<a> left leg was hurt | <b> hurt his left leg | <a> left leg was hurt in the football game | <b> hurt his left leg in the football game)\\\"<\/s>\\\";\\n<a>=(Tom's| His);\\n<b>=(He| Tom);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094622250",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303236,
+                "tagCode": "LkQLDAQ",
+                "createdAt": "2018-01-20T20:15:42.513+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:23.335+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:13.802+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a632257b1e48a741c3c351a",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632257b1e48a741c3c351a.sy3",
+                    "filename": "1.mp3",
+                    "seconds": 20
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094696368-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u5bf9\u8bdd\uff0c\u6839\u636e\u6240\u542c\u5185\u5bb9\u53e3\u5934\u56de\u7b54\u95ee\u9898\u3002\u542c\u5bf9\u8bdd\u524d\uff0c\u4f60\u67095\u79d2\u949f\u65f6\u95f4\u9605\u8bfb\u95ee\u9898\u3002\u542c\u5230\u5f55\u97f3\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4f60\u572815\u79d2\u949f\u5185\u53e3\u5934\u56de\u7b54\u95ee\u9898\u5e76\u5b8c\u6210\u5f55\u97f3\u3002\u6bcf\u6bb5\u5bf9\u8bdd\u4f60\u5c06\u542c\u4e24\u904d\u3002",
+                "notFitMobile": 0,
+                "seconds": 84,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "What's the matter with Anna?",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 15,
+                                "variables": [
+                                    "<a>=Anna| She",
+                                    "<b>=has| has got"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "Has a bad headache.| <a> <b> a bad headache."
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 5,
+                                "listenFile": {
+                                    "fileId": "5a633b4db1e48a3c0d97e6fe",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a633b4db1e48a3c0d97e6fe.sy3",
+                                    "filename": "30.mp3",
+                                    "seconds": 44
+                                },
+                                "contentDesc": "\u200bM: What's the matter, Anna?<p> W: I have a bad headache. I didn't sleep well last night. I didn't go to bed until two o'clock this morning.<br> M: Why did you stay up so late?<br> W: I had to finish the report. I have to give it to our teacher this morning.<\/p>",
+                                "answers": [
+                                    {
+                                        "answer": "<p>Has a bad headache.<\/p><p>Anna| She has| has got a bad headache.<\/p>",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"Has a bad headache | <a> <b> a bad headache\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(Has a bad headache | <a> <b> a bad headache)\\\"<\/s>\\\";\\n<a>=(Anna| She);\\n<b>=(has| has got);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094696368",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303236,
+                "tagCode": "LkQLDAQ",
+                "createdAt": "2018-01-20T20:52:53.056+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:24.175+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:14.777+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a632257b1e48a741c3c351a",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632257b1e48a741c3c351a.sy3",
+                    "filename": "1.mp3",
+                    "seconds": 20
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094705261-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u5bf9\u8bdd\uff0c\u6839\u636e\u6240\u542c\u5185\u5bb9\u53e3\u5934\u56de\u7b54\u95ee\u9898\u3002\u542c\u5bf9\u8bdd\u524d\uff0c\u4f60\u67095\u79d2\u949f\u65f6\u95f4\u9605\u8bfb\u95ee\u9898\u3002\u542c\u5230\u5f55\u97f3\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4f60\u572815\u79d2\u949f\u5185\u53e3\u5934\u56de\u7b54\u95ee\u9898\u5e76\u5b8c\u6210\u5f55\u97f3\u3002\u6bcf\u6bb5\u5bf9\u8bdd\u4f60\u5c06\u542c\u4e24\u904d\u3002",
+                "notFitMobile": 0,
+                "seconds": 71,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "What should Mary do?",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 15,
+                                "variables": [
+                                    "<a>=Mary| She"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "Go to see a dentist.| Go to the dentist's.| <a> should go to see a dentist.| <a> should go to the dentist's. "
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 5,
+                                "listenFile": {
+                                    "fileId": "5a633c17b1e48a3cab40ee63",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a633c17b1e48a3cab40ee63.sy3",
+                                    "filename": "40.mp3",
+                                    "seconds": 31
+                                },
+                                "contentDesc": "\u200bW: I'm not feeling well.<p>M: What's the matter, Mary? Do you have a cold?<\/p><p>W: Oh, no. I have a toothache.<\/p><p>M: You should go to see a dentist.<\/p>",
+                                "answers": [
+                                    {
+                                        "answer": "<p>Go to see a dentist.<\/p><p>Go to the dentist's.<\/p><p>Mary| She should go to see a dentist.<\/p><p>Mary| She should go to the dentist's.<\/p>\u200b",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"Go to see a dentist | Go to the dentist's | <a> should go to see a dentist | <a> should go to the dentist's\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(Go to see a dentist | Go to the dentist's | <a> should go to see a dentist | <a> should go to the dentist's)\\\"<\/s>\\\";\\n<a>=(Mary| She);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094705261",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303236,
+                "tagCode": "LkQLDAQ",
+                "createdAt": "2018-01-20T20:56:02.070+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:24.341+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:16.262+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a632257b1e48a741c3c351a",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632257b1e48a741c3c351a.sy3",
+                    "filename": "1.mp3",
+                    "seconds": 20
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094769631-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u5bf9\u8bdd\uff0c\u6839\u636e\u6240\u542c\u5185\u5bb9\u53e3\u5934\u56de\u7b54\u95ee\u9898\u3002\u542c\u5bf9\u8bdd\u524d\uff0c\u4f60\u67095\u79d2\u949f\u65f6\u95f4\u9605\u8bfb\u95ee\u9898\u3002\u542c\u5230\u5f55\u97f3\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4f60\u572815\u79d2\u949f\u5185\u53e3\u5934\u56de\u7b54\u95ee\u9898\u5e76\u5b8c\u6210\u5f55\u97f3\u3002\u6bcf\u6bb5\u5bf9\u8bdd\u4f60\u5c06\u542c\u4e24\u904d\u3002",
+                "notFitMobile": 0,
+                "seconds": 99,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "What did the doctor tell the man to do?",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 15,
+                                "variables": [
+                                    "<a>=Take| Have",
+                                    "<b>=the| some",
+                                    "<c>=The doctor| She",
+                                    "<d>=told| asked",
+                                    "<e>=man| him"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "<a> <b> medicine and <a> a good rest.| <a> a good rest and <a> <b> medicine.| <c> <d> the <e> to <a> <b> medicine and <a> a good rest.| <c> <d> the <e> to <a> a good rest and<a> <b> medicine."
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 5,
+                                "listenFile": {
+                                    "fileId": "5a633ceeb1e48a4e7c6f0211",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a633ceeb1e48a4e7c6f0211.sy3",
+                                    "filename": "50.mp3",
+                                    "seconds": 59
+                                },
+                                "contentDesc": "\u200bW: Hello, young man. What's wrong with you?<p> M: I just couldn't sleep at night for two days.<br> W: Now open your mouth and say \"Ah\".<br> M: Ah \u2026 And then I'm tired all day at work.<br> W: Well, don't worry. You just have a cold. Take this medicine and have a good rest. I think you'll be better soon.<br> M: Thanks a lot.<\/p>",
+                                "answers": [
+                                    {
+                                        "answer": "<p>Take| Have the| some medicine and have| take a good rest.<\/p><p>Take| Have a good rest and have| take the| some medicine.<\/p><p>The doctor| She told| asked the man| him to take| have the| some medicine and have| take a good rest.<\/p><p>The doctor| She told| asked the man| him to have| take a good rest and take| have the| some medicine.<\/p>",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"<a> <b> medicine and <a> a good rest | <a> a good rest and <a> <b> medicine | <c> <d> the <e> to <a> <b> medicine and <a> a good rest | <c> <d> the <e> to <a> a good rest and<a> <b> medicine\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(<a> <b> medicine and <a> a good rest | <a> a good rest and <a> <b> medicine | <c> <d> the <e> to <a> <b> medicine and <a> a good rest | <c> <d> the <e> to <a> a good rest and<a> <b> medicine)\\\"<\/s>\\\";\\n<c>=(The doctor| She);\\n<a>=(Take| Have);\\n<d>=(told| asked);\\n<e>=(man| him);\\n<b>=(the| some);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094769631",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303236,
+                "tagCode": "LkQLDAQ",
+                "createdAt": "2018-01-20T21:02:06.721+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:24.417+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:17.773+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a632257b1e48a741c3c351a",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a632257b1e48a741c3c351a.sy3",
+                    "filename": "1.mp3",
+                    "seconds": 20
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094841164-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300068545604",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030060,
+                "difficultyInt": 3,
+                "description": "\u542c\u77ed\u6587\uff0c\u7136\u540e\u6839\u636e\u6240\u542c\u5185\u5bb9\u548c\u63d0\u793a\u4fe1\u606f\u8fdb\u884c\u8f6c\u8ff0\u3002\u4f60\u6709\u4e24\u5206\u949f\u7684\u65f6\u95f4\u505a\u8f6c\u8ff0\u51c6\u5907\u3002\u8f6c\u8ff0\u7684\u5f00\u5934\u5df2\u7ed9\u51fa\u3002",
+                "notFitMobile": 0,
+                "seconds": 345,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "<p>Sam had a cold... <\/p><p><img src=\"http:\/\/cdn.17zuoye.com\/fs-resource\/5a634393b1e48a4e7c7123fd.png\" width=\"550\" height=\"148\" alt=\"blob.png\"><\/p>",
+                            "answers": [],
+                            "subContentTypeId": 18,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 180,
+                                "variables": [
+                                    "<a>=swam| went swimming",
+                                    "<b>=take| have",
+                                    "<c>=Sam| him",
+                                    "<d>=Sam| he"
+                                ],
+                                "keywords": [],
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": [
+                                    "Sam had a cold because he <a> with some friends yesterday afternoon.| Sam had a cold because yesterday afternoon he <a> with some friends. ",
+                                    "This morning he had a headache. After taking the temperature, his mother found that he had a serious fever.| This morning he had a headache. His mother found that he had a serious fever.| This morning he had a headache. He had a serious fever.",
+                                    "So she took him to see a doctor. The doctor advised <c> to <b> some medicine and stay in bed for two days.| So she took him to the hospital. The doctor advised <c> to <b> some medicine and stay in bed for two days.| His mother took him to see a doctor. The doctor suggested that <c> <b> some medicine and stay in bed for two days.| The doctor advised <c> to <b> some medicine and stay in bed for two days.",
+                                    "So <d> can't go to school and he's writing to ask for two days' sick leave. He'll go to school as soon as he gets well.| So <d> can't go to school and he's writing to ask for two days' sick leave. As soon as he gets well, he'll go to school.| So <d> can't go to school. If he gets well, he'll go to school as soon as possible.| So <d> can't go to school. He'll go to school as soon as he gets well."
+                                ],
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 120,
+                                "listenFile": {
+                                    "fileId": "5a6340aeb1e48a2b0a9df382",
+                                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a6340aeb1e48a2b0a9df382.sy3",
+                                    "filename": "22.mp3",
+                                    "seconds": 32
+                                },
+                                "contentDesc": "<p>Sam had a cold because he swam with some friends yesterday afternoon. This morning he had a headache. After taking the temperature, his mother found that he had a serious fever. So she took him to see a doctor. The doctor advised Sam to take some medicine and stay in bed for two days. So Sam can't go to school and he's writing to ask for two days' sick leave. He'll go to school as soon as he gets well.<\/p>\u200b",
+                                "answers": [
+                                    {
+                                        "answer": "\u200b1. Sam had a cold because he swam| went swimming with some friends yesterday afternoon. This morning he had a headache. After taking the temperature, his mother found that he had a serious fever. So she took him to see a doctor. The doctor advised Sam| him to take| have some medicine and stay in bed for two days. So Sam| he can't| can not go to school and he\u2019s| he is writing to ask for two days' sick leave. He'll| He will go to school as soon as he gets well.<p>&nbsp;<\/p><p>2. Sam had a cold because he swam| went swimming with some friends yesterday afternoon. This morning he had a headache. His mother found that he had a serious fever. So she took him to the hospital. The doctor advised Sam| him to take| have some medicine and stay in bed for two days. So Sam| he can't| can not go to school and he\u2019s| he is writing to ask for two days' sick leave. As soon as he gets well, he'll| he will go to school.<\/p><p>&nbsp;<\/p><p>3. Sam had a cold because yesterday afternoon he swam| went swimming with some friends. This morning he had a headache. He had a serious fever. His mother took him to see a doctor. The doctor suggested that Sam| him take | have some medicine and stay in bed for two days. So Sam| he can't| can not go to school. If he gets well, he'll| he will go to school as soon as possible.<\/p><p>&nbsp;<\/p><p>4. Sam had a cold because he swam| went swimming with some friends yesterday afternoon. This morning he had a headache. He had a serious fever. The doctor advised Sam| him to take| have some medicine and stay in bed for two days. So Sam| he can't| can not go to school. He'll| He will go to school as soon as he gets well.<\/p>",
+                                        "listenFile": {
+                                            "fileId": "",
+                                            "url": "",
+                                            "filename": "",
+                                            "seconds": null
+                                        }
+                                    }
+                                ],
+                                "voiceTextsNew": null,
+                                "jsgf": "{\"DisplayText\": \"Sam had a cold because he <a> with some friends yesterday afternoon | Sam had a cold because yesterday afternoon he <a> with some friends This morning he had a headache After taking the temperature his mother found that he had a serious fever | This morning he had a headache His mother found that he had a serious fever | This morning he had a headache He had a serious fever So she took him to see a doctor The doctor advised <c> to <b> some medicine and stay in bed for two days | So she took him to the hospital The doctor advised <c> to <b> some medicine and stay in bed for two days | His mother took him to see a doctor The doctor suggested that <c> <b> some medicine and stay in bed for two days | The doctor advised <c> to <b> some medicine and stay in bed for two days So <d> can't go to school and he's writing to ask for two days' sick leave He'll go to school as soon as he gets well | So <d> can't go to school and he's writing to ask for two days' sick leave As soon as he gets well he'll go to school | So <d> can't go to school If he gets well he'll go to school as soon as possible | So <d> can't go to school He'll go to school as soon as he gets well\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"((Sam had a cold because he <a> with some friends yesterday afternoon | Sam had a cold because yesterday afternoon he <a> with some friends) (This morning he had a headache After taking the temperature his mother found that he had a serious fever | This morning he had a headache His mother found that he had a serious fever | This morning he had a headache He had a serious fever) (So she took him to see a doctor The doctor advised <c> to <b> some medicine and stay in bed for two days | So she took him to the hospital The doctor advised <c> to <b> some medicine and stay in bed for two days | His mother took him to see a doctor The doctor suggested that <c> <b> some medicine and stay in bed for two days | The doctor advised <c> to <b> some medicine and stay in bed for two days) (So <d> can't go to school and he's writing to ask for two days' sick leave He'll go to school as soon as he gets well | So <d> can't go to school and he's writing to ask for two days' sick leave As soon as he gets well he'll go to school | So <d> can't go to school If he gets well he'll go to school as soon as possible | So <d> can't go to school He'll go to school as soon as he gets well))\\\"<\/s>\\\";\\n<c>=(Sam| him);\\n<a>=(swam| went swimming);\\n<d>=(Sam| he);\\n<b>=(take| have);\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094841164",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303240,
+                "tagCode": "LkClLArPaAr",
+                "createdAt": "2018-01-20T21:26:41.860+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:25.057+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:22.027+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a633e62b1e48a3b0befda62",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a633e62b1e48a3b0befda62.sy3",
+                    "filename": "2.mp3",
+                    "seconds": 13
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            },
+            {
+                "id": "Q_20312094842616-1",
+                "subjectId": 203,
+                "knowledgePoints": null,
+                "knowledgePointsNew": [
+                    {
+                        "id": "KP_20300072962765",
+                        "tagId": 0,
+                        "main": 1,
+                        "featureIds": []
+                    }
+                ],
+                "testMethods": [],
+                "solutionMethods": [],
+                "resourceIds": null,
+                "resourceIndex": 0,
+                "listenUrl": null,
+                "listenName": null,
+                "listenSeconds": 0,
+                "exploreSeconds": 0,
+                "answersSeconds": 0,
+                "paperIds": [
+                    "P_20300162123472-1"
+                ],
+                "books": null,
+                "booksNew": null,
+                "contentTypeId": 2031021,
+                "contentType2Id": 2030062,
+                "difficultyInt": 1,
+                "description": "\u5148\u6d4f\u89c8\u77ed\u6587\uff0c\u7136\u540e\u5b8c\u6210\u6717\u8bfb\u3002\u73b0\u5728\uff0c\u4f60\u67091\u5206\u949f\u65f6\u95f4\u6d4f\u89c8\u77ed\u6587\u5e76\u505a\u5f55\u97f3\u51c6\u5907\u3002\u5728\u542c\u5230\u5012\u8ba1\u65f6\u7ed3\u675f\u7684\u63d0\u793a\u97f3\u540e\uff0c\u8bf7\u4ee5\u9002\u5f53\u97f3\u91cf\u3001\u8bed\u8c03\u3001\u505c\u987f\u3001\u8bed\u97f3\uff0c\u5b8c\u6574\u6717\u8bfb\u8be5\u77ed\u6587\uff0c\u65f6\u95f4\u4e3a2\u5206\u949f\u3002",
+                "notFitMobile": 0,
+                "seconds": 201,
+                "complex": 0,
+                "singleBook": null,
+                "nid": null,
+                "lastEditorId": null,
+                "finalAuditorId": "5a0540952ed9b642e75476ae",
+                "roughAuditorIds": null,
+                "content": {
+                    "content": "",
+                    "contentDesc": "",
+                    "analysis": "",
+                    "subContents": [
+                        {
+                            "content": "<p>Sarah didn't feel well. She really wanted to be healthy, but she didn't know what to do. Mr. Green, a doctor, told her how to stay healthy. \"First, you should look after yourself. For example, you should go for a walk after dinner, do more exercise and eat lots of fruit and vegetables. They are all good for your health. Don't watch TV too much, read in bed, eat too much or go to bed late.\" After that Sarah did as Mr. Green said. She is very healthy now.<\/p>",
+                            "answers": [],
+                            "subContentTypeId": 19,
+                            "analysis": "",
+                            "optionType": "word",
+                            "options": [],
+                            "hideOptionNumber": 0,
+                            "listenUrl": "",
+                            "listenName": "",
+                            "listenSeconds": 0,
+                            "exploreSeconds": 0,
+                            "answersSeconds": 0,
+                            "oralDict": {
+                                "seconds": 120,
+                                "variables": null,
+                                "keywords": null,
+                                "options": null,
+                                "voiceText": null,
+                                "sentencePatterns": null,
+                                "picUrl": null,
+                                "picName": null,
+                                "beginListenUrl": "http:\/\/cdn.17zuoye.com\/fs-resource\/57903aac2ed9b66f483fbb23",
+                                "endListenUrl": "",
+                                "scorePercentage": 1,
+                                "readySeconds": 60,
+                                "listenFile": {
+                                    "fileId": "",
+                                    "url": "",
+                                    "filename": "",
+                                    "seconds": null
+                                },
+                                "contentDesc": "",
+                                "answers": null,
+                                "voiceTextsNew": [
+                                    [
+                                        "Sarah didn't feel well. She really wanted to be healthy, but she didn't know what to do. Mr. Green, a doctor, told her how to stay healthy.  First, you should look after yourself. For example, you should go for a walk after dinner, do more exercise and eat lots of fruit and vegetables. They are all good for your health. Don't watch TV too much, read in bed, eat too much or go to bed late.  After that Sarah did as Mr. Green said. She is very healthy now."
+                                    ]
+                                ],
+                                "jsgf": "{\"DisplayText\": \"Sarah didn't feel well She really wanted to be healthy but she didn't know what to do Mr Green a doctor told her how to stay healthy First you should look after yourself For example you should go for a walk after dinner do more exercise and eat lots of fruit and vegetables They are all good for your health Don't watch TV too much read in bed eat too much or go to bed late After that Sarah did as Mr Green said She is very healthy now\", \"Grammar\": \"#JSGF V1.0 utf-8 cn;\\ngrammar main;\\npublic <sample>=\\\"<s>\\\"(Sarah didn't feel well She really wanted to be healthy but she didn't know what to do Mr Green a doctor told her how to stay healthy First you should look after yourself For example you should go for a walk after dinner do more exercise and eat lots of fruit and vegetables They are all good for your health Don't watch TV too much read in bed eat too much or go to bed late After that Sarah did as Mr Green said She is very healthy now)\\\"<\/s>\\\";\", \"GrammarWeight\": \"\", \"Version\": 1}",
+                                "videoUrl": null,
+                                "videoCoverUrl": null,
+                                "highlightPos": null,
+                                "sceneDescription": null,
+                                "sceneName": null
+                            },
+                            "submitWays": [
+                                3
+                            ],
+                            "tags": null,
+                            "analysisList": [
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000029772",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000030691",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000031387",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000032025",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000033573",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000034806",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000035129",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000036762",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000045893",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000046042",
+                                    "text": ""
+                                },
+                                {
+                                    "choiceIds": [],
+                                    "analysisTypeId": "AT_20300000047944",
+                                    "text": ""
+                                }
+                            ],
+                            "pictureUrl": "",
+                            "extras": [],
+                            "knowledgePointsList": [],
+                            "answerList": [],
+                            "tagsDesc": []
+                        }
+                    ]
+                },
+                "docId": "Q_20312094842616",
+                "version": 1,
+                "wordId": null,
+                "pictureUrl": null,
+                "tagId": 20303224,
+                "tagCode": "LkArRAr",
+                "createdAt": "2018-01-20T21:29:09.267+08:00",
+                "deletedAt": null,
+                "olCreatedAt": "2018-01-21T21:25:25.119+08:00",
+                "olUpdatedAt": "2018-03-21T21:30:22.168+08:00",
+                "sentenceIds": null,
+                "sentenceContents": null,
+                "broken": false,
+                "practiceTypeIds": null,
+                "categoryId": 0,
+                "fromId": 8,
+                "paragraph": null,
+                "articleName": null,
+                "descriptionFile": {
+                    "fileId": "5a6343b8b1e48a4877f554eb",
+                    "url": "http:\/\/cdn.17zuoye.com\/fs-resource\/5a6343b8b1e48a4877f554eb.sy3",
+                    "filename": "3.mp3",
+                    "seconds": 21
+                },
+                "analysisSeconds": 0,
+                "readySeconds": 0,
+                "wikiType": null,
+                "others": null,
+                "skillIds": null,
+                "abilities": null,
+                "weighted": null,
+                "additions": null,
+                "questionId": null,
+                "bookCatalogIds": null,
+                "previousId": null,
+                "variantIds": null,
+                "errorFactorIds": null,
+                "tags": [],
+                "deletedTrue": false,
+                "knowledgePointsB": [],
+                "submitWays": [
+                    [
+                        3
+                    ]
+                ],
+                "subjective": true,
+                "answers": [
+                    []
+                ]
+            }
+        ],
+        "knowledge_points_list": [
+            {
+                "id": "KP_20300068545604",
+                "name": "\u75be\u75c5 (Illnesses)"
+            },
+            {
+                "id": "KP_20300072962765",
+                "name": "\u536b\u751f\u4e0e\u5065\u5eb7"
+            }
+        ],
+        "content_types": [
+            {
+                "nid": 2030060,
+                "name": "\u53e3\u8bed\u4e3b\u89c2\u9898"
+            },
+            {
+                "nid": 2030062,
+                "name": "\u77ed\u6587\u6717\u8bfb"
+            }
+        ],
+        "words": [],
+        "category": {
+            "book_id": "BK_20300001481320",
+            "catalog_id": "BKC_20300076261886",
+            "name": "\u53e3\u8bed1",
+            "package_type": "",
+            "content_type": "system_package"
+        }
+    }
+}

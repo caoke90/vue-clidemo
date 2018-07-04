@@ -1,5 +1,5 @@
 {
-  "name": "cardVue",
+  "name": "nodeserver",
   "version": "",
   "description": "",
   "author": {
@@ -16,6 +16,7 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "ftp-deploy": "^2.1.1",
     "http-proxy-middleware": "^0.18.0",
     "inquirer": "^5.2.0",

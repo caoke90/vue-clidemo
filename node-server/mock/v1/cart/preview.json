@@ -1,0 +1,257 @@
+{
+  "result": "success",
+  "success": "ok",
+  "data": {
+    "blocks": [
+      {
+        "category": {
+          "type": "sync",
+          "name": "语法",
+          "book_id": "BK_20300001761501",
+          "category_id": "a82446b8d412a3dda3c2c79b68bae37e",
+          "clazz_id": 1,
+          "practice_type": "sync"
+        },
+        "items": [
+          {
+            "id": "Q_20306159121921-3",
+            "duration": 28,
+            "type": 20888,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "questions": {
+      "Q_20306159121921-3": {
+        "id": "Q_20306159121921-3",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": null,
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 1,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 40,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": null,
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "<p>Tom's schoolbag is not as <span style=\"display:inline\"><mark type=\"blank\" style=\"display:none\"></mark>_____ as Mark's.</span></p>",
+              "answers": [
+                {
+                  "answer": "0",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300051877303",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null,
+                  "variantId": null,
+                  "top10": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "sentence",
+              "options": [
+                {
+                  "option": "expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0
+                  }
+                },
+                {
+                  "option": "more expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0
+                  }
+                },
+                {
+                  "option": "most expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0
+                  }
+                },
+                {
+                  "option": "much expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是固定搭配。as adj. as n. 像...一样... expensive 昂贵的。</p><p>因此，正确答案是A。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "knowledgePointsList": [
+                [
+                  "KP_20300051877303"
+                ]
+              ],
+              "answerList": [
+                "0"
+              ],
+              "tagsDesc": []
+            }
+          ]
+        },
+        "docId": "Q_20306159121921",
+        "version": 3,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2017-01-11T14:45:54.816+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2017-08-31T04:57:31.484+08:00",
+        "olUpdatedAt": "2017-08-31T04:57:31.484+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 7,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "questionId": null,
+        "bookCatalogIds": null,
+        "previousId": null,
+        "variantIds": null,
+        "errorFactorIds": null,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    "duration": 28,
+    "question_count": 1
+  }
+}
