@@ -3,7 +3,7 @@ const FtpDeploy = require('ftp-deploy');
 const ora = require('ora');
 
 const PROJECT_NAME = require('../package.json').name;
-const REMOTE_PATH = '/root/dist/';
+const REMOTE_PATH = '/root/node-server/';
 
 inquirer.prompt([{
   type: 'confirm',
@@ -34,7 +34,7 @@ inquirer.prompt([{
         host: answer.host,
         password: 'caoke907167',
         port: 21,
-        localRoot: __dirname+'/../../dist/',
+        localRoot: __dirname+'/../../node-server/',
         remoteRoot: REMOTE_PATH,
         include: [ '*','**/*'],
         exclude: ['.git', '.idea', 'tmp/*','node_modules/**/*', '.bat'],
