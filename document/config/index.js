@@ -3,25 +3,28 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-const productName = 'document'
+const productName = require('../package').name||'template';
+
+var publicPath={
+  test:'/',
+  staging:'/',
+  production:'https://cdn-zxonline.17zuoye.cn/s17/',
+}
+
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: productName,
     assetsPublicPath: '/',
     proxyTable: {
       /*
-      域名:https://www.easy-mock.com/
-      用户名:caoke
-      密码:123456
       * */
       '/api': {
-        target: 'https://www.easy-mock.com/', // 接口的域名
+        target: 'http://127.0.0.1:3000/', // 接口的域名
         secure: false,  // 如果是https接口，需要配置这个参数
         changeOrigin: true, // 如果接口跨域，需要进行这个参数配置
         pathRewrite: {
-          '/api': '/mock/596f19b1a1d30433d837ad7d/example'
+          // '/api': '/mock/596f19b1a1d30433d837ad7d/example'
         }
       }
 
@@ -30,12 +33,12 @@ module.exports = {
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
-    autoOpenBrowser: false,
+    autoOpenBrowser: true,
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-
+    useEslint: true,
     /**
      * Source Maps
      */
@@ -53,18 +56,18 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../../dist/'+productName+'/index.html'),
+    // index: path.resolve(__dirname, '../../dist/'+productName+'/index.html'),
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../../dist'),
     assetsSubDirectory: productName,
-    assetsPublicPath: '/',
+    assetsPublicPath: publicPath[process.env.STAGE] || '/',
 
     /**
      * Source Maps
      */
 
-    productionSourceMap: false,
+    productionSourceMap: process.env.STAGE!=='production',
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

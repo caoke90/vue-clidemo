@@ -33,7 +33,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     before:require('../mock'),
     historyApiFallback: {
       rewrites: [
-        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, productName+'/index.html') },
+        { from: /.*/, to: path.posix.join(config.dev.assetsPublicPath, productName+'/list.html') },
       ],
     },
     hot: true,

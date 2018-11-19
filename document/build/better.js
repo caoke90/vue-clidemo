@@ -44,22 +44,18 @@ function getCommonsChunk() {
       chunks: ['vendor'],
       // minChunks:Infinity
     }),
-    // new webpack.optimize.CommonsChunkPlugin({
-    //   name: "common1",
-    //   chunks:['common1','rtdemo']
-    // }),
   ]
-  // for(let name in commonConfig){
-  //   if(Array.isArray(commonConfig[name])){
-  //     data.push(
-  //       new webpack.optimize.CommonsChunkPlugin({
-  //         name: name,
-  //         minChunks:commonConfig[name].length,
-  //         chunks:commonConfig[name]
-  //       })
-  //     )
-  //   }
-  // }
+  for(let name in commonConfig){
+    if(Array.isArray(commonConfig[name])){
+      data.push(
+        new webpack.optimize.CommonsChunkPlugin({
+          name: name,
+          minChunks:commonConfig[name].length,
+          chunks:commonConfig[name]
+        })
+      )
+    }
+  }
   return data;
 }
 

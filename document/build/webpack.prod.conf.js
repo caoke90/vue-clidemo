@@ -11,7 +11,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 // const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin')
-const env = require('../config/prod.env');
+const env = process.env.STAGE=='production'?require('../config/prod.env'):
+            process.env.STAGE=='staging'?require('../config/prod.env'):
+            require('../config/test.env');
 const test = require('./better');
 
 const entry=test.getproEntry()
@@ -42,17 +44,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       prettyPrint:true,
       fullpath:true
     }),
-    new ParallelUglifyPlugin({
-      cacheDir: '.cache/',
-      uglifyJS:{
-        output: {
-          comments: false
-        },
-        compress: {
-          warnings: false
-        }
-      }
-    }),
+
     // extract css into its own file
     new ExtractTextPlugin({
       filename: utils.assetsPath('css/[name].[contenthash].css'),
@@ -112,6 +104,26 @@ const webpackConfig = merge(baseWebpackConfig, {
     ])
   ]
 })
+const STAGE=env.STAGE.replace(/"/g,'')
+if(STAGE!='test'){
+  webpackConfig.plugins.push(
+    new ParallelUglifyPlugin({
+      cacheDir: '.cache/',
+      sourceMap: config.build.productionSourceMap,
+      uglifyJS:{
+        output: {
+          comments: false
+        },
+        compress: {
+          warnings: false,
+          drop_debugger: true,
+          drop_console:true
+        }
+      }
+    }),
+  )
+}
+
 
 if (config.build.productionGzip) {
   const CompressionWebpackPlugin = require('compression-webpack-plugin')
