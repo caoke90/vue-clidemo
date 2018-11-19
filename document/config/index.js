@@ -67,7 +67,7 @@ module.exports = {
      * Source Maps
      */
 
-    productionSourceMap: process.env.STAGE!=='production',
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

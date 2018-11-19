@@ -5,7 +5,7 @@
     </div>
     <div class="right">
       <div class="iframe">
-        <iframe :src="'/document/demo.html?cache='+card.edit_type"></iframe>
+        <iframe :src="'/demo/demo.html?cache='+card.edit_type"></iframe>
       </div>
     </div>
 
@@ -38,7 +38,7 @@
       }
     },
     created:function () {
-      axios.get('/document/mock/card11.js').then((resp) =>{
+      axios.get('/demo/mock/card11.js').then((resp) =>{
         this.text=JSON.stringify(eval(resp.data),null,2);
       })
     }

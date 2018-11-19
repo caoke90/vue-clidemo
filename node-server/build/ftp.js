@@ -3,7 +3,7 @@ const FtpDeploy = require('ftp-deploy');
 const ora = require('ora');
 
 const PROJECT_NAME = require('../package.json').name;
-const REMOTE_PATH = '/root/node-server/';
+const REMOTE_PATH = '/htdocs/';
 
 inquirer.prompt([{
   type: 'confirm',
@@ -17,7 +17,7 @@ inquirer.prompt([{
       message: '选择要上传到的 FTP 服务器: ',
       name: 'host',
       choices: [118, 48, 75, 76, 77, 234, 60, 74].map(function (v) {
-        return '140.143.245.' + v;
+        return 'qxu2058780451.my3w.com';
       })
     }, {
       type: 'password',
@@ -30,11 +30,11 @@ inquirer.prompt([{
       const ftpDeploy = new FtpDeploy();
 
       const config = {
-        user: 'root',
+        user: 'qxu2058780451',
         host: answer.host,
-        password: 'caoke907167',
+        password: 'Caoke907167',
         port: 21,
-        localRoot: __dirname+'/../../node-server/',
+        localRoot: __dirname+'/../../dist/',
         remoteRoot: REMOTE_PATH,
         include: [ '*','**/*'],
         exclude: ['.git', '.idea', 'tmp/*','node_modules/**/*', '.bat'],
