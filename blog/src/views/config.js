@@ -1,6 +1,27 @@
-module.export = {
-  "header":{
-      "card_type":"header",
+export default {
+  "mheader":{
+    "card_type":"mheader",
+    'submenu':[
+      {
+        title:'caoke的个人博客',
+        name:'index',
+
+      },
+      {
+        title:'marvel组件',
+        name:'marvel',
+        submenu:[
+          {
+            title:'gongsi',
+            name:'gongsi',
+          }
+        ]
+      },
+      {
+        title:'源码下载',
+        name:'page2',
+      }
+    ]
   },
   "footer":{
     "card_type":"footer"
@@ -21,7 +42,7 @@ module.export = {
       name: 'marvelItem',
       leftMenu:{
         "card_type":"menu1",
-        'el-menu':[
+        'submenu':[
           {
             title:'',
             url:'',

@@ -9,6 +9,9 @@
     md:(resolve)=>{
       require(['./cards/md.vue'], resolve)
     },
+    mheader:(resolve)=>{
+      require(['./cards/mheader.vue'], resolve)
+    },
   };
   export default{
     props:['card'],
