@@ -3,9 +3,7 @@
   <div v-else v-html="lazyhtml"></div>
 </template>
 <script>
-
   import nonepng from './assets/img/none.png';
-
   var list = []
   var running = false;
   var lazyFuc = function (e) {
@@ -60,10 +58,9 @@
       lazyhtml() {
 
         //img标签要把src取出来
-        const srcReg = /src="([^"]*)"/g;
+
         if(!this.isShow) {
-          let srcPel = 'src="'+nonepng+'"';
-          return this.html.replace(srcReg,srcPel)
+          return this.html.replace(/src *= *(["'])([^"]*)\1/g,'src=$1'+nonepng+'$1')
         }
         else {
           return this.html;
@@ -96,6 +93,3 @@
   };
 </script>
 
-<style>
-
-</style>
