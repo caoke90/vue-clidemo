@@ -6,7 +6,7 @@
 
 <script>
 
-  import axios from 'axios';
+  import axios from '@/api/ajax';
   import VueMarkdown from 'vue-markdown';
 
   require('@/directive/highlight')
@@ -24,7 +24,7 @@
     created:function () {
       const the=this;
       if(!the.card.md_type){return;}
-      axios.get('/demo/md/'+the.card.md_type+'.md').then((resp) =>{
+      axios.get('/md/'+the.card.md_type+'.md').then((resp) =>{
         this.card.md=resp.data;
         this.key+=1;
       })

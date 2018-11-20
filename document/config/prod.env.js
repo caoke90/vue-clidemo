@@ -1,6 +1,8 @@
 'use strict'
+const productName = require('../package').name||'template';
 module.exports = {
   buildTime:JSON.stringify(new Date().toLocaleString()),
+  productName: '"'+productName+'"',
   NODE_ENV: '"production"',
   STAGE: JSON.stringify(process.env.STAGE),
   zybaseURL:'"//zy.17zuoye.com"',

@@ -35,7 +35,7 @@
         },false)
       }else{
         var hash=location.hash.substr(1)||'card';
-        axios.get('/demo/mock/'+hash+'.js').then((resp)=>{
+        axios.get('/mock/'+hash+'.js').then((resp)=>{
           this.card_group=resp.data;
         })
 

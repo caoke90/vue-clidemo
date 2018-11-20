@@ -5,7 +5,7 @@
     </div>
     <div class="right">
       <div class="iframe">
-        <iframe :src="'/demo/demo.html?cache='+card.edit_type"></iframe>
+        <iframe :src="'/'+productName+'/demo.html?cache='+card.edit_type"></iframe>
       </div>
     </div>
 
@@ -13,12 +13,13 @@
 </template>
 <script>
 
-  import axios from 'axios';
+  import axios from '@/api/ajax';
   import storage from '@/utils/storage'
   export default {
     data() {
       return {
         text:'',
+        productName:process.env.productName
 
       };
     },
@@ -38,7 +39,7 @@
       }
     },
     created:function () {
-      axios.get('/demo/mock/card11.js').then((resp) =>{
+      axios.get('/mock/card11.js').then((resp) =>{
         this.text=JSON.stringify(eval(resp.data),null,2);
       })
     }

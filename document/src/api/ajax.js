@@ -16,7 +16,7 @@ axios.defaults.xsrfCookieName = null;
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
-axios.defaults.baseURL="/";
+axios.defaults.baseURL="/"+ process.env.productName;
 Vue.prototype.$http = axios;
 Vue.http = axios;
 
@@ -49,10 +49,6 @@ axios.interceptors.response.use(
     return response;
   },
   function (error) {
-    Vue.$message({
-      type:'error',
-      message:'系统繁忙，请稍后重试!'
-    })
     // Do something with response error
     return Promise.reject(error);
   }
