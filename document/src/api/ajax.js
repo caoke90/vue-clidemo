@@ -16,7 +16,7 @@ axios.defaults.xsrfCookieName = null;
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
-axios.defaults.baseURL="/"+ process.env.productName;
+axios.defaults.baseURL=process.env.baseURL||"/";
 Vue.prototype.$http = axios;
 Vue.http = axios;
 
