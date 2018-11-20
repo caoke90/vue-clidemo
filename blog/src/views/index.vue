@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h2 style="line-height: 50px;">编辑左边，右边发生变化</h2>
     <div v-for="(v,k) in card_group"  :key="k">
       <card :card="v"></card>
     </div>
@@ -14,8 +13,8 @@
       return {
         card_group: [
           {
-            card_type:"edit",
-            edit_type:"card11"
+            card_type:'md',
+            md_type:"hello"
           }
         ]
       }

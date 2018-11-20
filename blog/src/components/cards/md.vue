@@ -12,7 +12,7 @@
   require('@/directive/highlight')
 
   export default {
-    name: 'card1',
+    name: 'md',
     components: {VueMarkdown},
     props: ['card'],
     data:function(){

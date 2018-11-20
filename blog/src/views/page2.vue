@@ -13,7 +13,7 @@
       return {
         card_group: [
           {
-            card_type:1,
+            card_type:'md',
             md_type:'load'
           }
         ]

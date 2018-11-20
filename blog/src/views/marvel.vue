@@ -66,21 +66,21 @@
   const map={
     hello:[
       {
-        card_type:1,
+        card_type:'md',
         md_type:'hello'
       }
     ],
     cards:{
       card1:[
         {
-          card_type:1,
+          card_type:'md',
           md_type:'card1'
         }
       ],
       card11:[
 
         {
-          card_type:1,
+          card_type:'md',
           md_type:'card11'
         },
         {
@@ -116,18 +116,14 @@
           if(pname=='tools'||pname=='modals'){
             return [
               {
-                card_type:2,
-                md_type:cname
-              },
-              {
-                card_type:1,
+                card_type:'md',
                 md_type:cname
               },
             ];
           }else{
             return [
               {
-                card_type:1,
+                card_type:'md',
                 md_type:cname
               },
               ]

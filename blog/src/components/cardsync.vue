@@ -4,25 +4,12 @@
 
 <script>
   //我把它定义成一个业务组件
-  // const component = require.context('./cards', false, /\.vue$/);
 
   const components = {
-    card1:(resolve)=>{
-      require(['./cards/card1.vue'], resolve)
+    md:(resolve)=>{
+      require(['./cards/md.vue'], resolve)
     },
-    card2:(resolve)=>{
-      require(['./cards/card2.vue'], resolve)
-    },
-    card3:(resolve)=>{
-      require(['./cards/card3.vue'], resolve)
-    },
-    edit:(resolve)=>{
-      require(['./cards/edit.vue'], resolve)
-    }
   };
-  // component.keys().map(component).forEach((card)=>{
-  //   components[card.name]=card;
-  // })
   export default{
     props:['card'],
     components,
