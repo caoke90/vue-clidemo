@@ -5,6 +5,6 @@
 import Vue from 'vue';
 
 const Bus = new Vue();
-
+window.Bus = Bus;
 export default Bus;
 
