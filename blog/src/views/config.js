@@ -9,11 +9,17 @@ export default {
       },
       {
         title:'marvel组件',
-        name:'marvel',
+        name:'marvel2',
         submenu:[
           {
             title:'gongsi',
-            name:'gongsi',
+            name:'marvel',
+            submenu:[
+              {
+                title:'gongsi',
+                name:'marvel22',
+              }
+            ]
           }
         ]
       },
@@ -23,8 +29,8 @@ export default {
       }
     ]
   },
-  "footer":{
-    "card_type":"footer"
+  "mfooter":{
+    "card_type":"mfooter"
   },
   routes: [
     {
