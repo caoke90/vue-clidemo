@@ -12,14 +12,25 @@ import bconfig from '../views/config.js';
 const routersCache=[]
 bconfig.routes.forEach(function (item) {
   const {path,name,card_group,leftmenu}=item;
+  if(item.mheader===true){
+    item.mheader=0;
+  }
+  if(item.leftmenu===true){
+    item.leftmenu=0;
+  }
+  if(Object.prototype.toString.call(item.mheader)=='[object Number]'){
+    item.mheader=bconfig.mheader[item.mheader]
+  }
+  if(Object.prototype.toString.call(item.leftmenu)=='[object Number]'){
+    item.leftmenu=bconfig.leftmenu[item.leftmenu]
+  }
   routersCache.push({
     name:name,
     path:path,
     component: index,
     meta:{
-      mheader:item.mheader===true?bconfig.mheader:item.mheader,
-      mfooter:item.mfooter===true?bconfig.mfooter:item.mfooter,
-      leftmenu:item.leftmenu===true?bconfig.leftmenu:item.leftmenu,
+      mheader:item.mheader,
+      leftmenu:item.leftmenu,
 
       card_group:item.card_group,
     }

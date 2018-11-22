@@ -15,9 +15,6 @@
     leftmenu:(resolve)=>{
       require(['./cards/leftmenu.vue'], resolve)
     },
-    mulmd:(resolve)=>{
-      require(['./cards/mulmd.vue'], resolve)
-    },
   };
   export default{
     props:['card'],
