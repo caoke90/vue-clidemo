@@ -2,12 +2,7 @@
   <div>
     <el-menu
       :default-active="activeIndex"
-      class="el-menu-demo"
-      mode="horizontal"
-      @select="handleSelect"
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b">
+      @select="handleSelect">
       <template v-for="(v,k) in card.submenu" >
         <el-submenu v-if="v.submenu" :index="v.name">
           <template slot="title"><span @click="mclick(v)">{{v.title}}</span></template>
@@ -29,7 +24,7 @@
 <script>
 
   export default {
-    name: 'mheader',
+    name: 'leftmenu',
     props: ['card'],
     data:function(){
       return {
@@ -38,12 +33,15 @@
     },
     methods: {
       mclick(v){
-        if(v.url){
-          location.href=v.url;
-        }
+        console.log(v)
+        this.$router.push({ name: v.name,path: v.path})
       },
       handleSelect(key, keyPath) {
-        this.$router.push({ name: key})
+        console.log(arguments)
+        // if(key){
+        //   this.$router.push({ name: key})
+        // }
+
       }
     }
   }

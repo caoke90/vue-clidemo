@@ -8,6 +8,9 @@ import router from '../router'
 Vue.component('card',require('../components/cardsync.vue'));
 
 
+
+console.log(router)
+
 // 导入elm ui
 
 import { Menu,MenuItem,Submenu,Breadcrumb,BreadcrumbItem} from 'element-ui';

@@ -1,7 +1,7 @@
 <template>
   <div class="g-bd1 f-cb">
     <div class="g-sd1">
-      <div style="position: fixed;width: 20%;top: 0;padding: 61px 0;height: 100%;overflow-y: scroll">
+      <div style="position: fixed;width: 20%;top: 0;padding: 61px 0;height: 100vh;overflow-y: scroll">
         <el-menu
           default-active="1"
           class="el-menu-vertical-demo"

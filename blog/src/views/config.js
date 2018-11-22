@@ -3,124 +3,108 @@ export default {
     "card_type":"mheader",
     'submenu':[
       {
-        title:'caoke的个人博客',
+        title:'blog-巅峰蜗牛',
         name:'index',
-
       },
       {
         title:'marvel组件',
-        name:'marvel2',
-        submenu:[
-          {
-            title:'gongsi',
-            name:'marvel',
-            submenu:[
-              {
-                title:'gongsi',
-                name:'marvel22',
-              }
-            ]
-          }
-        ]
+        name:'marvel',
       },
       {
         title:'源码下载',
-        name:'page2',
+        name:'load',
       }
     ]
   },
   "mfooter":{
     "card_type":"mfooter"
   },
+  leftmenu:{
+    "card_type":"leftmenu",
+    'submenu':[
+      {
+        title:'bus',
+        path:'/marvel/bus',
+      },
+      {
+        title:'card1',
+        name:'card1',
+      },
+
+      {
+        title:'file',
+        name:'file',
+      }
+    ]
+  },
   routes: [
     {
       path: '/',
       name: 'index',
-      card_group:[],
+      mheader:true,
+      card_group:[   {
+        card_type:'md',
+        md_type:'hello'
+      }],
     },
     {
       path: '/marvel',
       name: 'marvel',
-      card_group:[],
+      mheader:true,
+      leftmenu:true,
+
+      card_group:[   {
+        card_type:'md',
+        md_type:'hello'
+      }],
     },
     {
-      path: '/marvel/:pname/:cname',
-      name: 'marvelItem',
-      leftMenu:{
-        "card_type":"menu1",
-        'submenu':[
-          {
-            title:'',
-            url:'',
-            card_group:[],
-            submenu:[
-              {
-                title:'',
-                url:'',
-                card_group:[]
-              }
-            ],
-          },
-          {
-            title:'',
-            url:'',
-            card_group:[],
-            submenu:[
-              {
-                title:'',
-                url:'',
-                card_group:[]
-              }
-            ],
-          }
-        ]
-      },
-      card_group:[],
+      path: '/:pname/:cname',
+      name: 'mulmd',
+      mheader:true,
+      leftmenu:true,
+      card_group:[{
+        card_type:'mulmd'
+      }],
     },
     {
-      path: '/page2',
-      name: 'page2',
-      card_group:[],
-    }
+      path: '/marvel/card1',
+      name: 'card1',
+      mheader:true,
+      leftmenu:true,
+      card_group:[   {
+        card_type:'md',
+        md_type:'card1'
+      }],
+    },
+    {
+      path: '/marvel/file',
+      name: 'file',
+      mheader:true,
+      leftmenu:true,
+      card_group:[   {
+        card_type:'md',
+        md_type:'file'
+      }],
+    },
+    {
+      path: '/load',
+      name: 'load',
+      mheader:true,
+      card_group:[   {
+        card_type:'md',
+        md_type:'load'
+      }],
+    },
+    {
+      path: '/:marvel',
+      name: '404',
+      mheader:true,
+      leftmenu:true,
+      card_group:[   {
+        card_type:'md',
+        md_type:'404'
+      }],
+    },
   ],
-  data:{
-    'index':{
-      card_group:[]
-    },
-    'page1':{
-      leftMenu:{
-        "card_type":"menu1",
-        'el-menu':[
-          {
-            title:'',
-            url:'',
-            card_group:[],
-            submenu:[
-              {
-                title:'',
-                url:'',
-                card_group:[]
-              }
-            ],
-          },
-          {
-            title:'',
-            url:'',
-            card_group:[],
-            submenu:[
-              {
-                title:'',
-                url:'',
-                card_group:[]
-              }
-            ],
-          }
-        ]
-      },
-      card_group:[]
-    },
-    'page2':{
-      card_group:[]
-    }
-  }
 }

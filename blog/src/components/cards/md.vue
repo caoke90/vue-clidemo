@@ -10,7 +10,7 @@
   import VueMarkdown from 'vue-markdown';
 
   require('@/directive/highlight')
-
+  const mdCache={}
   export default {
     name: 'md',
     components: {VueMarkdown},
@@ -22,12 +22,18 @@
       }
     },
     created:function () {
-      const the=this;
-      if(!the.card.md_type){return;}
-      axios.get('/md/'+the.card.md_type+'.md').then((resp) =>{
-        this.card.md=resp.data;
+      if(!this.card.md_type){return;}
+      if(!mdCache[this.card.md_type]){
+        axios.get('/md/'+this.card.md_type+'.md').then((resp) =>{
+          this.card.md=resp.data;
+          mdCache[this.card.md_type]=this.card.md
+          this.key+=1;
+        })
+      }else{
+        this.card.md=mdCache[this.card.md_type]
         this.key+=1;
-      })
+      }
+
 
     }
   }

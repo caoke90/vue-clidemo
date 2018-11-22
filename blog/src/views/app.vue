@@ -1,41 +1,24 @@
 <template>
   <div class="app">
-    <div class="top">
-      <card :card="card.mheader" ></card>
+    <div class="top" v-if="$route.meta.mheader" >
+      <card :card="$route.meta.mheader" ></card>
     </div>
-    <div :key="$router.path">
+    <div style="height: 61px;" v-if="$route.meta.mheader"></div>
+    <div :key="$route.path">
       <router-view/>
     </div>
-
-
   </div>
 </template>
 
 <script>
-  import bconfig from './config.js';
 
-  console.log(bconfig);
   export default {
     name: 'App',
-    data () {
-      return {
-        card:bconfig,
-      }
-    },
-    methods: {
-      handleSelect(key, keyPath) {
-        if(key){
-          this.$router.push({ name: key})
-        }
-      }
-    }
+
   }
 </script>
 
 <style>
-  .app{
-    padding-top: 61px;
-  }
   .top{
     position: fixed;
     width: 100%;
