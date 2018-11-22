@@ -1,3 +1,5 @@
+import 'es6-promise/auto';
+import 'core-js/es7/array'
 //pc端：使用路由、图片懒加载、element-ui、服务、组件
 import Vue from 'vue'
 
