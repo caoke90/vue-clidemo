@@ -8,6 +8,7 @@
 
   import axios from 'axios';
   import VueMarkdown from 'vue-markdown';
+  var anchorJS = require('anchor-js');
 
   require('@/directive/highlight')
   const mdCache={}
@@ -23,15 +24,22 @@
     },
     created:function () {
       if(!this.card.md_type){return;}
+      var anchors = new anchorJS();
       if(!mdCache[this.card.md_type]){
         axios.get('md/'+this.card.md_type+'.md').then((resp) =>{
           this.card.md=resp.data;
           mdCache[this.card.md_type]=this.card.md
           this.key+=1;
+          setTimeout(function () {
+            anchors.add();
+          },1000)
         })
       }else{
         this.card.md=mdCache[this.card.md_type]
         this.key+=1;
+        setTimeout(function () {
+          anchors.add();
+        },1000)
       }
 
 
