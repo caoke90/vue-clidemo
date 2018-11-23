@@ -26,8 +26,16 @@ Vue.prototype.$ELEMENT = { size: 'small' }
 //项目的入口
 import App from '../views/app'
 
-axios.get('mdconfig.json').then(function (resp) {
-  const bconfig=resp.data
+if(window.bconfig){
+  window.binit(window.bconfig)
+}else{
+  axios.get('mdconfig.json').then(function (resp) {
+    window.bconfig=resp.data
+    window.binit(window.bconfig)
+  })
+}
+
+window.binit=function (bconfig) {
   const routersCache=[]
   bconfig.routes.forEach(function (item) {
     const {path,name,card_group,leftmenu}=item;
@@ -60,11 +68,10 @@ axios.get('mdconfig.json').then(function (resp) {
     // mode: 'history',
     routes: routersCache
   })
-   new Vue({
+  new Vue({
     el: '#app',
     router,
     components: { App },
     template: ' <div><mv-modal></mv-modal><App/></div>'
   })
-})
-
+}
