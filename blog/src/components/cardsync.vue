@@ -9,9 +9,6 @@
     md:(resolve)=>{
       require(['./cards/md.vue'], resolve)
     },
-    jade:(resolve)=>{
-      require(['./cards/jade.vue'], resolve)
-    },
     mheader:require('./cards/mheader.vue'),
     leftmenu:require('./cards/leftmenu.vue'),
   };

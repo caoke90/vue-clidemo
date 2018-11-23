@@ -9,6 +9,9 @@
 
   // Actual default values
   var md = require('markdown-it')({
+    html: true,
+    linkify: true,
+    typographer: true,
     highlight: function (str, lang) {
       if (lang && hljs.getLanguage(lang)) {
         try {
