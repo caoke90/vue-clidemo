@@ -1,5 +1,5 @@
 <template>
-  <div class="card markdown-body" :key="key">
+  <div class="markdown-body" :key="key">
     <div v-html="shtml"></div>
   </div>
 </template>
