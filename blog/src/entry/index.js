@@ -26,7 +26,7 @@ Vue.prototype.$ELEMENT = { size: 'small' }
 //项目的入口
 import App from '../views/app'
 
-if(window.bconfig){
+if(window.bconfig&&window.bconfig.routes){
   window.binit(window.bconfig)
 }else{
   axios.get('mdconfig.json').then(function (resp) {
