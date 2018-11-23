@@ -26,15 +26,6 @@ Vue.prototype.$ELEMENT = { size: 'small' }
 //项目的入口
 import App from '../views/app'
 
-if(window.bconfig&&window.bconfig.routes){
-  window.binit(window.bconfig)
-}else{
-  axios.get('mdconfig.json').then(function (resp) {
-    window.bconfig=resp.data
-    window.binit(window.bconfig)
-  })
-}
-
 window.binit=function (bconfig) {
   const routersCache=[]
   bconfig.routes.forEach(function (item) {
@@ -75,3 +66,14 @@ window.binit=function (bconfig) {
     template: ' <div><mv-modal></mv-modal><App/></div>'
   })
 }
+
+if(window.bconfig&&window.bconfig.routes){
+  window.binit(window.bconfig)
+}else{
+  axios.get('mdconfig.json').then(function (resp) {
+    window.bconfig=resp.data
+    window.binit(window.bconfig)
+  })
+}
+
+
