@@ -12,8 +12,8 @@
           "name": "marvel"
         },
         {
-          "title": "test",
-          "name": "test"
+          "title": "17作业题库样式",
+          "name": "17zuoyecss"
         },
         {
           "title": "源码下载",
@@ -47,17 +47,24 @@
       "card_type": "leftmenu",
       "submenu": [
         {
-          "title": "img",
+          "title": "选择题",
           "icon": "el-icon-document",
-          "path": "/test/img"
+          "path": "/test/img",
+          "submenu": [
+            {
+              "title": "2070321",
+              "icon": "el-icon-location",
+              "path": "/test/img"
+            }
+          ]
         },
         {
-          "title": "image",
+          "title": "填空题",
           "icon": "el-icon-document",
           "path": "/test/image"
         },
         {
-          "title": "pswp",
+          "title": "听力",
           "icon": "el-icon-document",
           "path": "/test/pswp"
         }
@@ -89,8 +96,8 @@
       ]
     },
     {
-      "path": "/test",
-      "name": "test",
+      "path": "/17zuoyecss",
+      "name": "17zuoyecss",
       "mheader": true,
       "leftmenu": 1,
       "card_group": [
