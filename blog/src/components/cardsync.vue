@@ -9,12 +9,8 @@
     md:(resolve)=>{
       require(['./cards/md.vue'], resolve)
     },
-    mheader:(resolve)=>{
-      require(['./cards/mheader.vue'], resolve)
-    },
-    leftmenu:(resolve)=>{
-      require(['./cards/leftmenu.vue'], resolve)
-    },
+    mheader:require('./cards/mheader.vue'),
+    leftmenu:require('./cards/leftmenu.vue'),
   };
   export default{
     props:['card'],

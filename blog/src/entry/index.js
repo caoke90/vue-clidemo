@@ -5,7 +5,7 @@ import axios from 'axios';
 /*
   注册 组件容器
 * */
-Vue.component('card',require('../components/card.vue'));
+Vue.component('card',require('../components/cardsync.vue'));
 
 
 import Router from 'vue-router'
