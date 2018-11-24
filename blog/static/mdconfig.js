@@ -31,19 +31,19 @@ bconfig={
       "card_type": "leftmenu",
       "submenu": [
         {
-          "title": "bus",
+          "title": "前端组件化",
+          "icon": "el-icon-document",
+          "path": "/marvel/file"
+        },
+        {
+          "title": "基础组件",
           "icon": "el-icon-document",
           "path": "/marvel/bus"
         },
         {
-          "title": "card1",
+          "title": "公共组件",
           "icon": "el-icon-document",
           "path": "/marvel/card1"
-        },
-        {
-          "title": "file",
-          "icon": "el-icon-document",
-          "path": "/marvel/file"
         }
       ]
     },
