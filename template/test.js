@@ -27,12 +27,7 @@ const analysis={
         this.map=this.productMiddle(this.numCssText)
         this.natureMap(this.map)
 
-        this.commonCss=this.map.filter(function (item) {
-
-            return ['html','body'].indexOf(item[0])>-1
-
-        })
-        // console.log(this.commonCss)
+        console.log(JSON.stringify(this.map))
 
     },
     natureMap(map){
@@ -46,7 +41,7 @@ const analysis={
             }
         })
     },
-    // 生成中间结构
+    // 生成选择器部分 中间结构
     productMiddle(numCssText){
         const map=new cssWrap()
         numCssText.replace(/([%@\(\)\w \.:,\-\#\[\]\*]+)(`\d+)\{(.+?)\2\}/g, (m,p1,p2,p3) =>{
@@ -68,7 +63,6 @@ const analysis={
             cache[num]=m
             return '`'+num+'`';
         })
-        // console.log(numCssText)
         numCssText.replace(/([\w-]+):([^;]+);?/g, (m,p1,p2) =>{
             //取出暂存内容
             p2=p2.replace(/`(\d)`/,function (mo,po1) {
@@ -76,7 +70,6 @@ const analysis={
             })
             map.push([p1,p2])
         })
-        // console.log(map)
         return map;
     },
     //计数转化
@@ -88,7 +81,6 @@ const analysis={
             }else{
                 return '`'+(num--)+m;
             }
-
         })
     },
     //移除计数
