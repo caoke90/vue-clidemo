@@ -2,12 +2,12 @@ const fs=require('fs')
 const cssText=fs.readFileSync('./test.css').toString()
 
 //css 选择器部分 结构
-function cssWrap() {
+function cssSelector() {
     // 构造函数窃取
     Array.prototype.push.apply(this,arguments);
 }
-cssWrap.prototype=Object.create(Array.prototype);
-cssWrap.prototype.constructor=cssWrap;
+cssSelector.prototype=Object.create(Array.prototype);
+cssSelector.prototype.constructor=cssSelector;
 
 //css 属性部分 结构
 function cssNature() {
@@ -27,12 +27,12 @@ const analysis={
         this.map=this.productMiddle(this.numCssText)
         this.natureMap(this.map)
 
-        console.log(JSON.stringify(this.map))
+        console.log(JSON.stringify(this.map,null,2))
 
     },
     natureMap(map){
         map.forEach((arr)=>{
-            if(arr[1] instanceof cssWrap){
+            if(arr[1] instanceof cssSelector){
                 this.natureMap(arr[1])
             }else{
 
@@ -43,12 +43,12 @@ const analysis={
     },
     // 生成选择器部分 中间结构
     productMiddle(numCssText){
-        const map=new cssWrap()
+        const map=new cssSelector()
         numCssText.replace(/([%@\(\)\w \.:,\-\#\[\]\*]+)(`\d+)\{(.+?)\2\}/g, (m,p1,p2,p3) =>{
             if(/`\d+\{/.test(p3)){
                 p3=this.productMiddle(p3)
             }
-            map.push(new cssWrap(p1,p3))
+            map.push(new cssSelector(p1,p3))
         })
         return map;
     },
