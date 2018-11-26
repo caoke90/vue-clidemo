@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-  <script src="mdconfig.js"></script>
+
+  <script src="mdconfig.js?<%= JSON.stringify(htmlWebpackPlugin.files.chunks.index.hash) %>"></script>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

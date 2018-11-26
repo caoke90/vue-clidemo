@@ -8,6 +8,10 @@ bconfig={
           "name": "index"
         },
         {
+          "title": "前端工程化",
+          "name": "fework"
+        },
+        {
           "title": "marvel组件",
           "name": "marvel"
         },
@@ -210,7 +214,27 @@ bconfig={
           "name": "笔试题型"
         }
       ]
-    }
+    },
+    {
+      "card_type": "leftmenu",
+      "submenu": [
+        {
+          "title": "前端工程化",
+          "icon": "el-icon-document",
+          "name": "fework"
+        },
+        {
+          "title": "第三方组件",
+          "icon": "el-icon-document",
+          "path": "/fe/bus"
+        },
+        {
+          "title": "公共组件",
+          "icon": "el-icon-document",
+          "path": "/marvel/card1"
+        }
+      ]
+    },
   ],
   "routes": [
     {
@@ -221,6 +245,18 @@ bconfig={
         {
           "card_type": "md",
           "md_type": "hello"
+        }
+      ]
+    },
+    {
+      "path": "/fework",
+      "name": "fework",
+      "mheader": true,
+      "leftmenu": 2,
+      "card_group": [
+        {
+          "card_type": "md",
+          "md_type": "fe/fework"
         }
       ]
     },
