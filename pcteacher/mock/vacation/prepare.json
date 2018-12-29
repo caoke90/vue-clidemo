@@ -1,0 +1,44 @@
+{
+    "success": true,
+    "data":{
+        "group_list": [
+            {
+                "group_id": 10949,
+                "clazz_level_name": "九年级1班",
+                "is_assign": false
+            },
+            {
+                "group_id": 81528,
+                "clazz_level_name": "九年级7班",
+                "is_assign": false
+            },
+            {
+                "group_id": 108207,
+                "clazz_level_name": "九年级8班",
+                "is_assign": true
+            },
+            {
+                "group_id": 108208,
+                "clazz_level_name": "九年级英语8班",
+                "is_assign": false
+            },
+            {
+                "group_id": 108223,
+                "clazz_level_name": "九年级英语6班",
+                "is_assign": true
+            }
+        ],
+        "start_time_config": {
+            "default": 1548028800000,
+            "earliest": 1546790460000,
+            "latest": 1548950340000
+        },
+        "end_time_config": {
+            "default": 1551455940000,
+            "earliest": 1549814340000,
+            "latest": 1552838340000
+        }
+    },
+    "message":"",
+    "error_code":0
+}

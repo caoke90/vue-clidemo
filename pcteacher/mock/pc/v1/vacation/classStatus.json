@@ -1,0 +1,33 @@
+{
+    "success": true,
+    "data": [
+        {
+            "plan_id": "wv_2019-5c21d54770e97fbb16520832",
+            "class_id": 115729,
+            "class_name": "七年级2班",
+            "start_time": 1545721158971,
+            "end_time": 1551456000000,
+            "process_type": "going",
+            "count_all_students": 3,
+            "count_finished_students": 0,
+            "count_going_students": 1,
+            "count_not_started_students": 2,
+            "latest_assign_time": "2019-02-01 00:00"
+        },
+        {
+            "plan_id": "wv_2019-5c219cca70e97f8de225bed3",
+            "class_id": 115731,
+            "class_name": "八年级5班",
+            "start_time": 1545706698744,
+            "end_time": 1551456000000,
+            "process_type": "going",
+            "count_all_students": 11,
+            "count_finished_students": 0,
+            "count_going_students": 3,
+            "count_not_started_students": 8,
+            "latest_assign_time": "2019-02-01 00:00"
+        }
+    ],
+    "message": "",
+    "error_code": 0
+}

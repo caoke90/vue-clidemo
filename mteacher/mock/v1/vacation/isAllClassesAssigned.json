@@ -1,0 +1,10 @@
+{
+  "result": "success",
+  "message": "ok",
+  "data": {
+    "all_assigned": false,
+    "count_unassigned_classes" : 2,
+    "limit_time" : 1548979199
+   },
+   "success":true
+}

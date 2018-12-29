@@ -1,0 +1,69 @@
+{
+  "result": "success",
+  "message": "ok",
+  "data": {
+    "bk_id": "BK_20300003526200",
+    "name": "听力单元列表",
+    "bk_name": "上教牛津版八年级上",
+    "class_level": 8,
+    "term_type": 1,
+    "list": [
+      {
+        "packages": {
+          "unit_id": "BKC_20300232127313",
+          "unit_name": "Unit 1 Encyclopaedias",
+          "is_used": "1"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232128588",
+          "unit_name": "Unit 2 Numbers",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232129539",
+          "unit_name": "Unit 3 Computers",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232130567",
+          "unit_name": "Unit 4 Inventions",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232131308",
+          "unit_name": "Unit 5 Educational exchanges",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232132106",
+          "unit_name": "Unit 6 Ancient stories",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232133124",
+          "unit_name": "Unit 7 Memory",
+          "is_used": "0"
+        }
+      },
+      {
+        "packages": {
+          "unit_id": "BKC_20300232134036",
+          "unit_name": "Unit 8 English Week",
+          "is_used": "0"
+        }
+      }
+    ]
+  }
+}

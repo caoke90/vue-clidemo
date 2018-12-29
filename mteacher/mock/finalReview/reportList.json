@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "data": {
+    "jc_list": [{
+      "name": "单词/课文",
+      "generate_status": 1
+    }],
+    "clazz_list": [{
+      "clazz_id": 112769,
+      "original_clazz_name": "5班",
+      "clazz_name": "七年级5班"
+    }, {
+      "clazz_id": 112770,
+      "original_clazz_name": "7班",
+      "clazz_name": "七年级7班"
+    }, {
+      "clazz_id": 112817,
+      "original_clazz_name": "10班",
+      "clazz_name": "九年级10班"
+    }, {
+      "clazz_id": 112865,
+      "original_clazz_name": "2班",
+      "clazz_name": "六年级2班"
+    }, {
+      "clazz_id": 112866,
+      "original_clazz_name": "8班",
+      "clazz_name": "七年级8班"
+    }, {
+      "clazz_id": 112867,
+      "original_clazz_name": "英语4班",
+      "clazz_name": "七年级英语4班"
+    }, {
+      "clazz_id": 112868,
+      "original_clazz_name": "英语5班",
+      "clazz_name": "七年级英语5班"
+    }],
+    "hw_list": [{
+        "_id": "56eb7eb9a6b9f67408000030",
+        "teacher_id": 125016,
+        "book_id": "BK_20300001057355",
+        "include_subjective": 0,
+        "subtitle": "二、知识导学",
+        "expect_duration": 840,
+        "name": "同步学练测-英语-八年级上册（RJ） 03-18",
+        "paper_id": "PM_20300001909390",
+        "start_time": 1458273971000,
+        "close_time": 1458316740000,
+        "create_time": 1458273977000,
+        "clazz_id": 11024,
+        "open_answer_time": null,
+        "clazz_name": "六年级1班",
+        "student_count": 3,
+        "is_overtime": 1,
+        "finished_count": 0,
+        "wait_crt_count": 0,
+        "wait_view_count": 0,
+        "crt_count": 0
+      },
+      {
+        "_id": "56eb7eb9a6b9f67408000030",
+        "teacher_id": 125016,
+        "book_id": "BK_20300001057355",
+        "include_subjective": 0,
+        "subtitle": "二、知识导学",
+        "expect_duration": 840,
+        "name": "同步学练测-英语-八年级上册（RJ） 03-18",
+        "paper_id": "PM_20300001909390",
+        "start_time": 1458273971000,
+        "close_time": 1458316740000,
+        "create_time": 1458273977000,
+        "clazz_id": 11024,
+        "open_answer_time": null,
+        "clazz_name": "六年级1班",
+        "student_count": 3,
+        "is_overtime": 1,
+        "finished_count": 0,
+        "wait_crt_count": 0,
+        "wait_view_count": 0,
+        "crt_count": 0
+      }
+    ]
+  },
+  "message": "",
+  "error_code": 0
+}

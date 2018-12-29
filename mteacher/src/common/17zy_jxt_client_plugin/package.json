@@ -1,0 +1,33 @@
+{
+  "name": "17zy_jxt_client_plugin",
+  "version": "2.9.2",
+  "description": "h5跟客户端交互方法",
+  "author": {
+    "name": "rambo",
+    "email": "luwei.li@17zuoye.com"
+  },
+  "keywords": [
+    "客户端",
+    "h5"
+  ],
+  "repository": "http://gitlab.17zuoye.net/17zuoye/shanks",
+  "main": "./src/shanks.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "./bin/run_ut.sh test",
+    "package": "./bin/parse.sh"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine-core": "^2.8.0",
+    "karma": "=1.7.1",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "=1.1.1",
+    "rollup": "^0.53.0",
+    "uglify-js": "=3.3.1"
+  },
+  "_from": "17zy_jxt_client_plugin@http://npm.17zuoye.net/17zy_jxt_client_plugin/-/17zy_jxt_client_plugin-2.9.2.tgz",
+  "_resolved": "http://npm.17zuoye.net/17zy_jxt_client_plugin/-/17zy_jxt_client_plugin-2.9.2.tgz"
+}

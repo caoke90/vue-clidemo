@@ -1,0 +1,1424 @@
+{
+  "result": "success",
+  "message": "ok",
+  "data": {
+    "knowledge_points_list": [],
+    "content_types": [
+      {
+        "nid": 203006000,
+        "name": "单项选择"
+      }
+    ],
+    "words": [],
+    "question_boxs": [
+      {
+        "id": "Q_20309296475184-11",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "knowledgePoints2018": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": [
+          "P_20300127584701-29",
+          "P_20300127584701-30"
+        ],
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 2,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 37,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": null,
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "<p>\"The price of rice goes down every month.\" means rice is getting _____ now.</p>",
+              "answers": [
+                {
+                  "answer": "1",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300051883675",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300064506028",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "knowledgePoints2018": [
+                    {
+                      "id": "KP_20300155017757",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300156150374",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "word",
+              "options": [
+                {
+                  "option": "more expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "cheaper",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "more delicious",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "more",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是形容词的比较级。句意：“每个月大米的价格下降。”现在意味着大米变得更便宜。more expensive 更贵的；cheaper 更便宜的；more delicious 更美味的；more 更多的。</p><p>因此，正确答案是B。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "listenSecondsSingle": 0,
+              "knowledgePointsList": [
+                [
+                  "KP_20300051883675",
+                  "KP_20300064506028"
+                ]
+              ],
+              "answerList": [
+                "1"
+              ],
+              "tagsDesc": []
+            }
+          ],
+          "listenUrlSingle": null
+        },
+        "docId": "Q_20309296475184",
+        "version": 11,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2017-08-09T14:49:56.276+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2018-10-09T06:06:07.764+08:00",
+        "olUpdatedAt": "2018-10-09T06:06:07.764+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 7,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0,
+          "urlSingle": null,
+          "secondsSingle": null
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "localType": null,
+        "localTypeObj": null,
+        "new_content_type_id": 203006,
+        "new_content_subtype_id": 203006000,
+        "sceneDescription": null,
+        "listenUrlSingle": null,
+        "listenSecondsSingle": 0,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "1"
+          ]
+        ],
+        "newContentTypeId": 203006,
+        "newContentSubtypeId": 203006000,
+        "majorContentType": {
+          "nid": 203006,
+          "name": "单选小题"
+        },
+        "contentType": {
+          "nid": 203006000,
+          "name": "单项选择"
+        },
+        "isUsed": false
+      },
+      {
+        "id": "Q_20310238835280-11",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "knowledgePoints2018": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": [
+          "P_20300134567688-23",
+          "P_20300134567688-24"
+        ],
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 3,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 40,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": null,
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "We all know that having friends can make us much <span style=\"display: inline;\"><mark type=\"blank\" style=\"display:none\"></mark>_____</span>.",
+              "answers": [
+                {
+                  "answer": "3",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300073667339",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300051885128",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "knowledgePoints2018": [
+                    {
+                      "id": "KP_20300166242432",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300155019927",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "word",
+              "options": [
+                {
+                  "option": "happy",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "happily",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "happiness",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "happier",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是形容词比较级和形容词派生词词性辨析。句意：我们都知道拥有朋友能使我们更快乐。happy 形容词，快乐的，比较级是happier；happily 副词，快乐地；happiness 名词，快乐。much （用以加强比较级和最高级）……多，更，所以用比较级happier。</p><p>因此，正确答案是D。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "listenSecondsSingle": 0,
+              "knowledgePointsList": [
+                [
+                  "KP_20300073667339",
+                  "KP_20300051885128"
+                ]
+              ],
+              "answerList": [
+                "3"
+              ],
+              "tagsDesc": []
+            }
+          ],
+          "listenUrlSingle": null
+        },
+        "docId": "Q_20310238835280",
+        "version": 11,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2017-08-24T19:38:40.836+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2018-10-09T06:17:37.522+08:00",
+        "olUpdatedAt": "2018-10-09T06:17:37.522+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 7,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0,
+          "urlSingle": null,
+          "secondsSingle": null
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "localType": null,
+        "localTypeObj": null,
+        "new_content_type_id": 203006,
+        "new_content_subtype_id": 203006000,
+        "sceneDescription": null,
+        "listenUrlSingle": null,
+        "listenSecondsSingle": 0,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "3"
+          ]
+        ],
+        "newContentTypeId": 203006,
+        "newContentSubtypeId": 203006000,
+        "majorContentType": {
+          "nid": 203006,
+          "name": "单选小题"
+        },
+        "contentType": {
+          "nid": 203006000,
+          "name": "单项选择"
+        },
+        "isUsed": false
+      },
+      {
+        "id": "Q_20312923227943-6",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "knowledgePoints2018": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": [
+          "P_20300214526295-11"
+        ],
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 3,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 40,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": null,
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "<p>The train is _____ than the plane. But plane tickets are _____.</p>",
+              "answers": [
+                {
+                  "answer": "3",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300051890869",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300051887770",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "knowledgePoints2018": [
+                    {
+                      "id": "KP_20300155023536",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    },
+                    {
+                      "id": "KP_20300155021946",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "sentence",
+              "options": [
+                {
+                  "option": "slow; expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "slower; expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "<span style=\"white-space: normal;\">slow; more expensive</span>",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "<span style=\"white-space: normal;\">slower; more expensive</span>",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是形容词的比较级。句意：火车比飞机慢。但是飞机票比较贵。slow 慢的，形容词，比较级为slower；由than可知应用形容词的比较级；expensive 贵的，贵重的，形容词，比较级为more expensive；此处含有飞机票价和火车票价之间的比较，所以应用形容词的比较级。</p><p>因此，正确答案是D。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "listenSecondsSingle": 0,
+              "knowledgePointsList": [
+                [
+                  "KP_20300051890869",
+                  "KP_20300051887770"
+                ]
+              ],
+              "answerList": [
+                "3"
+              ],
+              "tagsDesc": []
+            }
+          ],
+          "listenUrlSingle": null
+        },
+        "docId": "Q_20312923227943",
+        "version": 6,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2018-06-25T14:52:58.457+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2018-10-09T13:23:19.244+08:00",
+        "olUpdatedAt": "2018-10-09T13:23:19.244+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 7,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0,
+          "urlSingle": null,
+          "secondsSingle": null
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "localType": null,
+        "localTypeObj": null,
+        "new_content_type_id": 203006,
+        "new_content_subtype_id": 203006000,
+        "sceneDescription": null,
+        "listenUrlSingle": null,
+        "listenSecondsSingle": 0,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "3"
+          ]
+        ],
+        "newContentTypeId": 203006,
+        "newContentSubtypeId": 203006000,
+        "majorContentType": {
+          "nid": 203006,
+          "name": "单选小题"
+        },
+        "contentType": {
+          "nid": 203006000,
+          "name": "单项选择"
+        },
+        "isUsed": false
+      },
+      {
+        "id": "Q_20310238841556-10",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "knowledgePoints2018": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": [
+          "P_20300134567688-23",
+          "P_20300134567688-24"
+        ],
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 3,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 40,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": null,
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "This question  is _____ more difficult than that one.",
+              "answers": [
+                {
+                  "answer": "0",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300073667339",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "knowledgePoints2018": [
+                    {
+                      "id": "KP_20300166242432",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "word",
+              "options": [
+                {
+                  "option": "much",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "quite",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "rather",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "very",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是副词辨析。句意：这个问题比那个困难多了。much 非常，很多地，常修饰形容词比较级；quite 相当地；rather 相当；very 非常；very多用于褒义形容词前，rather多用于贬义形容词前，quite和rather可修饰名词，置于不定冠词＋名词之前。</p><p>因此，正确答案是A。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "listenSecondsSingle": 0,
+              "knowledgePointsList": [
+                [
+                  "KP_20300073667339"
+                ]
+              ],
+              "answerList": [
+                "0"
+              ],
+              "tagsDesc": []
+            }
+          ],
+          "listenUrlSingle": null
+        },
+        "docId": "Q_20310238841556",
+        "version": 10,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2017-08-24T19:38:41.935+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2018-10-09T06:17:39.090+08:00",
+        "olUpdatedAt": "2018-10-09T06:17:39.090+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 7,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0,
+          "urlSingle": null,
+          "secondsSingle": null
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "localType": null,
+        "localTypeObj": null,
+        "new_content_type_id": 203006,
+        "new_content_subtype_id": 203006000,
+        "sceneDescription": null,
+        "listenUrlSingle": null,
+        "listenSecondsSingle": 0,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "0"
+          ]
+        ],
+        "newContentTypeId": 203006,
+        "newContentSubtypeId": 203006000,
+        "majorContentType": {
+          "nid": 203006,
+          "name": "单选小题"
+        },
+        "contentType": {
+          "nid": 203006000,
+          "name": "单项选择"
+        },
+        "isUsed": false
+      },
+      {
+        "id": "Q_20300845018656-16",
+        "subjectId": 203,
+        "knowledgePoints": null,
+        "knowledgePointsNew": [],
+        "knowledgePoints2018": [],
+        "testMethods": [],
+        "solutionMethods": [],
+        "resourceIds": null,
+        "resourceIndex": 0,
+        "listenUrl": null,
+        "listenName": null,
+        "listenSeconds": 0,
+        "exploreSeconds": 0,
+        "answersSeconds": 0,
+        "paperIds": [
+          "P_20300050151405-20",
+          "P_20300050151405-21"
+        ],
+        "books": null,
+        "booksNew": null,
+        "contentTypeId": 2031004,
+        "contentType2Id": 2030013,
+        "difficultyInt": 3,
+        "description": "从下面各题所给选项中，选择最佳选项。",
+        "notFitMobile": 0,
+        "seconds": 40,
+        "complex": 0,
+        "singleBook": null,
+        "nid": null,
+        "lastEditorId": null,
+        "finalAuditorId": "55bb19882ed9b64a96cdec38",
+        "roughAuditorIds": null,
+        "content": {
+          "content": "",
+          "contentDesc": "",
+          "analysis": "",
+          "subContents": [
+            {
+              "content": "(2015·青岛) This camera is too expensive. I'd like a <mark type=\"blank\" style=\"display: none;\"></mark>_____ one.",
+              "answers": [
+                {
+                  "answer": "1",
+                  "subAnswers": [],
+                  "richTexts": null,
+                  "scorePercentage": 1,
+                  "classification": "",
+                  "knowledgePoints": null,
+                  "knowledgePointsNew": [
+                    {
+                      "id": "KP_20300051883675",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "knowledgePoints2018": [
+                    {
+                      "id": "KP_20300155017757",
+                      "tagId": 0,
+                      "main": 1,
+                      "featureIds": []
+                    }
+                  ],
+                  "testMethods": [],
+                  "solutionMethods": [],
+                  "classificationListenUrl": null
+                }
+              ],
+              "subContentTypeId": 1,
+              "analysis": "",
+              "optionType": "word",
+              "options": [
+                {
+                  "option": "cheap",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "cheaper",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "cheapest",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                },
+                {
+                  "option": "more expensive",
+                  "file": {
+                    "fileId": "",
+                    "url": "",
+                    "filename": "",
+                    "seconds": 0,
+                    "urlSingle": null,
+                    "secondsSingle": null
+                  }
+                }
+              ],
+              "hideOptionNumber": 0,
+              "listenUrl": "",
+              "listenName": "",
+              "listenSeconds": 0,
+              "exploreSeconds": 0,
+              "answersSeconds": 0,
+              "oralDict": {
+                "seconds": null,
+                "variables": null,
+                "keywords": null,
+                "options": null,
+                "voiceText": null,
+                "sentencePatterns": null,
+                "picUrl": null,
+                "picName": null,
+                "beginListenUrl": null,
+                "endListenUrl": null,
+                "scorePercentage": null,
+                "readySeconds": null,
+                "listenFile": null,
+                "contentDesc": null,
+                "answers": null,
+                "voiceTextsNew": null,
+                "jsgf": null,
+                "videoUrl": null,
+                "videoCoverUrl": null,
+                "highlightPos": null,
+                "sceneDescription": null,
+                "sceneName": null
+              },
+              "submitWays": [
+                0
+              ],
+              "tags": null,
+              "analysisList": [
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000029772",
+                  "text": "<p>此题考查的是形容词比较级。句意：这台相机太贵了，我想要一个便宜一些的。根据句意可知此处要用比较级，cheap的比较级形式是cheaper。</p><p>因此，正确答案是B。</p>"
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000030691",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000031387",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000032025",
+                  "text": ""
+                },
+                {
+                  "choiceIds": [],
+                  "analysisTypeId": "AT_20300000045893",
+                  "text": ""
+                }
+              ],
+              "pictureUrl": "",
+              "extras": [],
+              "listenSecondsSingle": 0,
+              "knowledgePointsList": [
+                [
+                  "KP_20300051883675"
+                ]
+              ],
+              "answerList": [
+                "1"
+              ],
+              "tagsDesc": []
+            }
+          ],
+          "listenUrlSingle": null
+        },
+        "docId": "Q_20300845018656",
+        "version": 16,
+        "wordId": null,
+        "pictureUrl": null,
+        "tagId": 20303137,
+        "tagCode": "B01X4",
+        "createdAt": "2016-02-13T23:12:14.537+08:00",
+        "deletedAt": null,
+        "olCreatedAt": "2018-10-08T16:28:41.602+08:00",
+        "olUpdatedAt": "2018-10-08T16:28:41.602+08:00",
+        "sentenceIds": null,
+        "sentenceContents": null,
+        "broken": false,
+        "practiceTypeIds": null,
+        "categoryId": 0,
+        "fromId": 0,
+        "paragraph": null,
+        "articleName": null,
+        "descriptionFile": {
+          "fileId": "",
+          "url": "",
+          "filename": "",
+          "seconds": 0,
+          "urlSingle": null,
+          "secondsSingle": null
+        },
+        "analysisSeconds": 0,
+        "readySeconds": 0,
+        "wikiType": null,
+        "others": null,
+        "skillIds": null,
+        "abilities": null,
+        "weighted": null,
+        "additions": null,
+        "localType": null,
+        "localTypeObj": null,
+        "new_content_type_id": 203006,
+        "new_content_subtype_id": 203006000,
+        "sceneDescription": null,
+        "listenUrlSingle": null,
+        "listenSecondsSingle": 0,
+        "tags": [],
+        "deletedTrue": false,
+        "knowledgePointsB": [],
+        "submitWays": [
+          [
+            0
+          ]
+        ],
+        "subjective": false,
+        "answers": [
+          [
+            "1"
+          ]
+        ],
+        "newContentTypeId": 203006,
+        "newContentSubtypeId": 203006000,
+        "majorContentType": {
+          "nid": 203006,
+          "name": "单选小题"
+        },
+        "contentType": {
+          "nid": 203006000,
+          "name": "单项选择"
+        },
+        "isUsed": false
+      }
+    ],
+    "category": {
+      "package_content_type": "bigdata_package",
+      "bk_id": "BK_20300003534634",
+      "bkc_id": "",
+      "unit_id": "BKC_20300233042121",
+      "name": "词汇语法",
+      "algo_type": "REVIEW_VOCAB_GRAMMAR"
+    },
+    "page_info": {
+      "total_page": 1,
+      "now_page": 1,
+      "page_size": 10
+    },
+    "question_list": [
+      {
+        "id": "Q_20309296475184-11",
+        "newContentSubtypeId": 203006000,
+        "contentTypeId": 2031004,
+        "seconds": 37,
+        "knowledge_points": [],
+        "word_id": null,
+        "ocnid": null
+      },
+      {
+        "id": "Q_20310238835280-11",
+        "newContentSubtypeId": 203006000,
+        "contentTypeId": 2031004,
+        "seconds": 40,
+        "knowledge_points": [],
+        "word_id": null,
+        "ocnid": null
+      },
+      {
+        "id": "Q_20312923227943-6",
+        "newContentSubtypeId": 203006000,
+        "contentTypeId": 2031004,
+        "seconds": 40,
+        "knowledge_points": [],
+        "word_id": null,
+        "ocnid": null
+      },
+      {
+        "id": "Q_20310238841556-10",
+        "newContentSubtypeId": 203006000,
+        "contentTypeId": 2031004,
+        "seconds": 40,
+        "knowledge_points": [],
+        "word_id": null,
+        "ocnid": null
+      },
+      {
+        "id": "Q_20300845018656-16",
+        "newContentSubtypeId": 203006000,
+        "contentTypeId": 2031004,
+        "seconds": 40,
+        "knowledge_points": [],
+        "word_id": null,
+        "ocnid": null
+      }
+    ]
+  }
+}

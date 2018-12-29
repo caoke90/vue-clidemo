@@ -1,0 +1,22 @@
+{
+  "result": "success",
+  "message": "ok",
+  "success":true,
+  "data": [
+    {
+        "class_name" : "七年级1班",
+        "start_time" : "1548086340000",
+        "end_time" : 976576800000,
+        "count_all_students" : 30,
+        "count_finished_students" : 5
+    },
+    {
+ 
+        "class_name" : "七年级2班",
+        "start_time" : 1548086340000,
+        "end_time" : 1551455940000,
+        "count_all_students" : 30,
+        "count_finished_students" : 14
+    }
+  ]
+}

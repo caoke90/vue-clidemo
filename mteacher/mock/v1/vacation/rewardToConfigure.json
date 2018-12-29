@@ -1,0 +1,68 @@
+
+{
+    "success": true,
+    "data": {
+        "finish": [
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            }
+        ],
+        "going": [
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            }
+        ],
+        "not_started": [
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            },
+            {
+                "id": "333932542",
+                "name": "张晓晓",
+                "img_url": "https://cdn-portrait.test.17zuoye.net/gridfs/avatar-126685-5af44c7f77748733709c340a.jpg",
+                "day": "4"
+            }
+        ]
+    },
+    "message": "",
+    "error_code": 0
+}

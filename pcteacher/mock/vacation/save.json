@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+      "is_integral": true,
+      "integral": 100
+  },
+  "message": "",
+  "error_code": 0
+}

@@ -1,0 +1,86 @@
+{
+	"result": "success",
+	"message": "ok",
+	"data": {
+		"bookInfo": {
+			"id": "BK_20300003551891",
+			"name": "\u5317\u5e08\u5927\u7248\u516b\u5e74\u7ea7\u4e0a"
+		},
+		"weekList": [{
+			"week": 1,
+			"contentType": "review",
+			"dayCount": 4
+		}, {
+			"week": 2,
+			"contentType": "review",
+			"dayCount": 4
+		}, {
+			"week": 3,
+			"contentType": "review",
+			"dayCount": 4
+		}, {
+			"week": 4,
+			"contentType": "review",
+			"dayCount": 4
+		}, {
+			"week": 5,
+			"contentType": "preview",
+			"dayCount": 4
+		}],
+		"contentList": {
+			"review": [{
+				"id": 1,
+				"minutes": 4,
+				"questionSubtype": "\u4e2d\u8bd1\u82f1\/\u82f1\u8bd1\u4e2d",
+				"packageType": "\u5355\u8bcd",
+				"required": true,
+				"default": true,
+				"scene": "basic_consolidate",
+				"sceneName": "\u57fa\u7840\u5de9\u56fa",
+				"size": 40
+			}, {
+				"id": 2,
+				"minutes": 20,
+				"questionSubtype": "\u9010\u53e5\u8ddf\u8bfb\/\u6bb5\u843d\u6717\u8bfb",
+				"packageType": "\u8bfe\u6587",
+				"required": false,
+				"default": true,
+				"scene": "basic_consolidate",
+				"sceneName": "\u57fa\u7840\u5de9\u56fa",
+				"size": 4
+			}, {
+				"id": 6,
+				"minutes": 12,
+				"questionSubtype": "\u65b0\u6982\u5ff52\u9009\u8bfb",
+				"packageType": "\u7ecf\u5178\u8bfb\u7269",
+				"required": false,
+				"default": false,
+				"scene": "extra_develop",
+				"sceneName": "\u8bfe\u5916\u62d3\u5c55",
+				"size": 4
+			}],
+			"preview": [{
+				"id": 7,
+				"minutes": 8,
+				"questionSubtype": "\u4e2d\u8bd1\u82f1\/\u82f1\u8bd1\u4e2d",
+				"packageType": "\u5355\u8bcd",
+				"required": true,
+				"default": true,
+				"scene": "basic_consolidate",
+				"sceneName": "\u57fa\u7840\u5de9\u56fa",
+				"size": 40
+			}, {
+				"id": 8,
+				"minutes": 20,
+				"questionSubtype": "\u9010\u53e5\u8ddf\u8bfb\/\u6bb5\u843d\u6717\u8bfb",
+				"packageType": "\u8bfe\u6587",
+				"required": true,
+				"default": true,
+				"scene": "basic_consolidate",
+				"sceneName": "\u57fa\u7840\u5de9\u56fa",
+				"size": 4
+			}]
+		},
+		"isCorrectSeries": "false"
+	}
+}

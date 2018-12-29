@@ -1,0 +1,76 @@
+{
+  "result": "success",
+  "message": "ok",
+  "data": {
+    "tips": "\u6839\u636e\u5404\u73ed\u7ea7\u7ec3\u4e60\u60c5\u51b5\uff0c\u63d0\u53d6\u9ad8\u9891\u5171\u6027\u7b14\u8bd5\u9519\u9898\uff0c\u6bcf\u5468\u4e94\u5b9a\u671f\u63a8\u9001~~",
+    "list": {
+      "packages": [{
+        "id": "7-115529-2018-11-30",
+        "name": "7\u5e74\u7ea7-\u7b2c1\u671f",
+        "questionCnt": 28,
+        "minErrorRate": 50,
+        "maxErrorRate": 75,
+        "action": {
+          "h5url": "http:\/\/zystatic.test.17zuoye.net\/mteacher\/packageContent.html",
+          "params": {
+            "grade_id": 7,
+            "group_id": [115529, 115527],
+            "clazz_id": [40100543, 40098677],
+            "date": "2018-11-30",
+            "bk_id": "BK_20300003581689",
+            "unit_id": "",
+            "bkc_id": "",
+            "package_type": "HIGH_FREQUENCY",
+            "is_word_package": false,
+            "catalog_id": ""
+          }
+        },
+        "is_used": "1"
+      }, {
+        "id": "8-115528-2018-11-30",
+        "name": "8\u5e74\u7ea7-\u7b2c1\u671f",
+        "questionCnt": 9,
+        "minErrorRate": 50,
+        "maxErrorRate": 67,
+        "action": {
+          "h5url": "http:\/\/zystatic.test.17zuoye.net\/mteacher\/packageContent.html",
+          "params": {
+            "grade_id": 8,
+            "group_id": [115528],
+            "clazz_id": [33950625],
+            "date": "2018-11-30",
+            "bk_id": "BK_20300003581689",
+            "unit_id": "",
+            "bkc_id": "",
+            "package_type": "HIGH_FREQUENCY",
+            "is_word_package": false,
+            "catalog_id": ""
+          }
+        },
+        "is_used": "1"
+      }, {
+        "id": "9-115568-2018-11-30",
+        "name": "9\u5e74\u7ea7-\u7b2c1\u671f",
+        "questionCnt": 3,
+        "minErrorRate": 50,
+        "maxErrorRate": 50,
+        "action": {
+          "h5url": "http:\/\/zystatic.test.17zuoye.net\/mteacher\/packageContent.html",
+          "params": {
+            "grade_id": 9,
+            "group_id": [115568],
+            "clazz_id": [830205],
+            "date": "2018-11-30",
+            "bk_id": "BK_20300003581689",
+            "unit_id": "",
+            "bkc_id": "",
+            "package_type": "HIGH_FREQUENCY",
+            "is_word_package": false,
+            "catalog_id": ""
+          }
+        },
+        "is_used": "0"
+      }]
+    }
+  }
+}

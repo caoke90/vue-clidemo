@@ -1,0 +1,263 @@
+{
+    "success": true,
+    "data": {
+        "student_id": "333942625",
+        "real_name": "钱安易",
+        "count_all": 20,
+        "count_finished": 20,
+        "week_data": [
+            {
+                "no": 1,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 1,
+                        "is_finished": true,
+                        "homework_id": "5c12372a70e97f2a3f411faf",
+                        "time": 442,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 2,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb0",
+                        "time": 384,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 3,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb1",
+                        "time": 370,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 4,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb2",
+                        "time": 494,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "no": 2,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 5,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb3",
+                        "time": 386,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 6,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb4",
+                        "time": 414,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 7,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb5",
+                        "time": 414,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 8,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb6",
+                        "time": 388,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "no": 3,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 9,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb7",
+                        "time": 402,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 10,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb8",
+                        "time": 426,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 11,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fb9",
+                        "time": 408,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 12,
+                        "is_finished": true,
+                        "homework_id": "5c12372b70e97f2a3f411fba",
+                        "time": 382,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "no": 4,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 13,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fbb",
+                        "time": 386,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 14,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fbc",
+                        "time": 420,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 15,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fbd",
+                        "time": 440,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 16,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fbe",
+                        "time": 350,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "no": 5,
+                "type": "preview",
+                "days": [
+                    {
+                        "no": 17,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fbf",
+                        "time": 225,
+                        "score": 100,
+                        "practices": {
+                            "vocab": 100
+                        }
+                    },
+                    {
+                        "no": 18,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fc0",
+                        "time": 527,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 19,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fc1",
+                        "time": 575,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    },
+                    {
+                        "no": 20,
+                        "is_finished": true,
+                        "homework_id": "5c12372c70e97f2a3f411fc2",
+                        "time": 617,
+                        "score": 50,
+                        "practices": {
+                            "vocab": 100,
+                            "listen": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "class_id": 115805
+    },
+    "message": "",
+    "error_code": 0
+}

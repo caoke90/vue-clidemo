@@ -1,0 +1,55 @@
+{
+  "result": "success",
+  "message": "ok",
+  "data": {
+    "blocks": [{
+      "category": {
+        "package_content_type": "listen_speak_special_package",
+        "region_id": 610100,
+        "grade_id": 6,
+        "subtype_id": "LC_20300000014185",
+        "subtype_id_type": 1,
+        "name": "\u542c\u8bf4\u4e13\u9879",
+        "algo_type": "LISTEN_SPEAK_SPECIAL",
+        "catalog_id": "",
+        "type": "oral"
+      },
+      "items": [{
+        "id": "Q_20311324934932-13",
+        "duration": 187,
+        "count": 1,
+        "type": 203016,
+        "followup_num": 1,
+        "sum_duration": 187
+      }]
+    }, {
+      "category": {
+        "bk_id": "BK_20300003534634",
+        "bkc_id": "BKC_20300233036119",
+        "name": "\u5355\u8bcd\u8ddf\u8bfb",
+        "package_type": "1",
+        "package_content_type": "system_package",
+        "ocn_id": "OCN_02505479636",
+        "type": "vocab",
+        "catalog_id": "BKC_20300233036119"
+      },
+      "items": [{
+        "id": "Q_20312961600258-10",
+        "duration": 25,
+        "count": 1,
+        "type": 203017,
+        "followup_num": 1,
+        "sum_duration": 25
+      }, {
+        "id": "Q_20312940001128-11",
+        "duration": 15,
+        "count": 1,
+        "type": 203017,
+        "followup_num": 1,
+        "sum_duration": 15
+      }]
+    }],
+    "duration": 227,
+    "question_count": 3
+  }
+}

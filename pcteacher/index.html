@@ -1,0 +1,47 @@
+<%
+function getEntry(chunkname,type){
+  if(type=='js'){
+    return htmlWebpackPlugin.files.chunks[chunkname].entry;
+  }else if(type=='css'){
+    return htmlWebpackPlugin.files.chunks[chunkname].css;
+  }
+}
+//获取js的结构
+function getJs(chunkname){
+  if(htmlWebpackPlugin.files.chunks[chunkname]){
+    return '<script type=text/javascript src='+getEntry(chunkname,"js")+'></script>'
+  }
+}
+//获取css的结构
+function getCss(chunkname){
+  if(htmlWebpackPlugin.files.chunks[chunkname]){
+    var cssHtml=''
+    var arr=getEntry(chunkname,"css")
+    arr.forEach(function(url){
+      cssHtml=cssHtml+'<link href='+url+' rel=stylesheet>'
+    })
+    return cssHtml;
+  }
+}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+  <link rel="shortcut icon" href="//ucenter.17zuoye.com/favicon.ico" type="image/x-icon" />
+  <title>一起中学中学版，免费互动作业平台</title>
+  <meta name="Description" content="一起中学网是一个学生、老师和家长三方互动的作业平台，老师轻松推荐作业，学生快乐做作业，家长可以定期查看孩子的学习进度及报告，情景交融的学习模式，让孩子轻松搞定各科学习！一起中学，让学习成为美好体验。"/>
+  <meta name="Keywords" content="17作业，作业，一起中学下载，一起中学学生，学生APP，学生端下载，在线教育平台"/>
+  <%=getCss('pcbase')%>
+  <%=getCss(htmlWebpackPlugin.options.curChunk)%>
+</head>
+<body>
+
+<div id="app"></div>
+
+<!-- built files will be auto injected -->
+<%=getJs('pcbase')%>
+<%=getJs(htmlWebpackPlugin.options.curChunk)%>
+</body>
+</html>

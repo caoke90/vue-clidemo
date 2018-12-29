@@ -1,0 +1,46 @@
+<%
+function getEntry(chunkname,type){
+  if(type=='js'){
+    return htmlWebpackPlugin.files.chunks[chunkname].entry;
+  }else if(type=='css'){
+    return htmlWebpackPlugin.files.chunks[chunkname].css;
+  }
+}
+//获取js的结构
+function getJs(chunkname){
+  if(htmlWebpackPlugin.files.chunks[chunkname]){
+    return '<script type=text/javascript src='+getEntry(chunkname,"js")+'></script>'
+  }
+
+}
+//获取css的结构
+function getCss(chunkname){
+  if(htmlWebpackPlugin.files.chunks[chunkname]){
+    var cssHtml=''
+    var arr=getEntry(chunkname,"css")
+    arr.forEach(function(url){
+      cssHtml=cssHtml+'<link href='+url+' rel=stylesheet>'
+    })
+    return cssHtml;
+  }
+}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width,viewport-fit=cover" name="viewport">
+  <link rel="shortcut icon" href="//ucenter.17zuoye.com/favicon.ico" type="image/x-icon" />
+  <title></title>
+  <%=getCss('mbase')%>
+  <%=getCss(htmlWebpackPlugin.options.curChunk)%>
+</head>
+<body>
+
+<div id="app"></div>
+
+<!-- built files will be auto injected -->
+<%=getJs('mbase')%>
+<%=getJs(htmlWebpackPlugin.options.curChunk)%>
+</body>
+</html>

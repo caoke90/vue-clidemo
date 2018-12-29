@@ -1,0 +1,72 @@
+{
+  "name": "marvel",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vue-cli-service serve src/main.js",
+    "build": "vue-cli-service build --target lib --name zy-ctb index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "amd": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-debugger": 2,
+      "no-tabs": "off",
+      "semi": "off",
+      "padded-blocks": "off",
+      "comma-dangle": "off",
+      "quotes": "off",
+      "space-before-function-paren": "off",
+      "eqeqeq": "off",
+      "camelcase": "off",
+      "no-multiple-empty-lines": "off",
+      "indent": "off",
+      "vue/script-indent": [
+        "error",
+        2,
+        {
+          "baseIndent": 1,
+          "switchCase": 1
+        }
+      ],
+      "no-useless-constructor": "off",
+      "spaced-comment": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

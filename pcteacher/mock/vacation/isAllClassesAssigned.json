@@ -1,0 +1,10 @@
+{
+    "error_code": 0,
+    "message": "",
+    "data": {
+      "all_assigned": false,
+      "count_unassigned_classes" : 2,
+      "limit_time" : 1548979199
+     },
+     "success":true
+  }

@@ -1,0 +1,133 @@
+{
+    "success": true,
+    "data": {
+        "latest_assign_time": "1548950400000",
+        "earliest_end_time": "1549814400000",
+        "latest_end_time": "1552838400000",
+        "class_id": 115805,
+        "class_name": "八年级2班",
+        "start_time": 1544572800000,
+        "end_time": 1551455940000,
+        "count_homework": 20,
+        "homework_name": "寒假作业112",
+        "count_all_students": 12,
+        "count_going_students": 1,
+        "count_finished_students": 4,
+        "count_not_started_students": 7,
+        "hw_result_users": [
+            {
+                "tabName": "已完成",
+                "users": [
+                    {
+                        "user_id": 333942625,
+                        "real_name": "钱安易",
+                        "count_finished": 20,
+                        "teacher_comment": "加油",
+                        "integral": 2,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942626,
+                        "real_name": "羿一",
+                        "count_finished": 20,
+                        "teacher_comment": "加油",
+                        "integral": 4,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942632,
+                        "real_name": "陈安顺",
+                        "count_finished": 20,
+                        "teacher_comment": "",
+                        "integral": 5,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942634,
+                        "real_name": "赵十",
+                        "count_finished": 20,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }
+                ]
+            },
+            {
+                "tabName": "进行中",
+                "users": [
+                    {
+                        "user_id": 333942627,
+                        "real_name": "孙安康",
+                        "count_finished": 13,
+                        "teacher_comment": "劳逸结合，每天按时做，有良好的时间管理习惯；作答认真，保证了练习效果，继续加油！",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }
+                ]
+            },
+            {
+                "tabName": "未开始",
+                "users": [
+                    {
+                        "user_id": 333942628,
+                        "real_name": "陈五",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942629,
+                        "real_name": "郑四",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942630,
+                        "real_name": "李安和",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942633,
+                        "real_name": "冯安",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942631,
+                        "real_name": "整整",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942655,
+                        "real_name": "吴四",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333942656,
+                        "real_name": "杜九",
+                        "count_finished": 0,
+                        "teacher_comment": "",
+                        "integral": 0,
+                        "avatar_url": "https://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    "message": "",
+    "error_code": 0
+}

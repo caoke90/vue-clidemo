@@ -1,0 +1,163 @@
+{
+    "success": true,
+    "data": {
+        "student_id": "333940035",
+        "real_name": "豆丁一",
+        "count_all": 20,
+        "count_finished": 20,
+        "week_data": [
+            {
+                "no": 1,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 1,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 88
+                    },
+                    {
+                        "no": 2,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 95
+                    },
+                    {
+                        "no": 3,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 95
+                    },
+                    {
+                        "no": 4,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 65
+                    }
+                ]
+            },
+            {
+                "no": 2,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 5,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 86
+                    },
+                    {
+                        "no": 6,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 90
+                    },
+                    {
+                        "no": 7,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 99
+                    },
+                    {
+                        "no": 8,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 72
+                    }
+                ]
+            },
+            {
+                "no": 3,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 9,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 67
+                    },
+                    {
+                        "no": 10,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 67
+                    },
+                    {
+                        "no": 11,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 84
+                    },
+                    {
+                        "no": 12,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 92
+                    }
+                ]
+            },
+            {
+                "no": 4,
+                "type": "review",
+                "days": [
+                    {
+                        "no": 13,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 74
+                    },
+                    {
+                        "no": 14,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 93
+                    },
+                    {
+                        "no": 15,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 78
+                    },
+                    {
+                        "no": 16,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 74
+                    }
+                ]
+            },
+            {
+                "no": 5,
+                "type": "preview",
+                "days": [
+                    {
+                        "no": 17,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 64
+                    },
+                    {
+                        "no": 18,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 83
+                    },
+                    {
+                        "no": 19,
+                        "is_finished": true,
+                        "time": 34,
+                        "score": 95
+                    },
+                    {
+                        "no": 20,
+                        "is_finished": false,
+                        "time": 34,
+                        "score": 88
+                    }
+                ]
+            }
+        ]
+    },
+    "message": "",
+    "error_code": 0
+}

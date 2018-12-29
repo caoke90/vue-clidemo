@@ -1,0 +1,106 @@
+{
+    "success": true,
+    "data": {
+        "class_name": "八年级1班",
+        "start_time": 1543766400000,
+        "end_time": 1551369600000,
+        "count_homework": 20,
+        "count_all_students": 1,
+        "count_going_students": 0,
+        "count_finish_students": 3,
+        "count_not_started_students": 1,
+        "hw_result_users": [
+            {
+                "tabName": "已完成",
+                "users": [{
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 20,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }]
+            },
+            {
+                "tabName": "进行中",
+                "users": [{
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 5,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }]
+            },
+            {
+                "tabName": "未开始",
+                "users": [
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    },
+                    {
+                        "user_id": 333940035,
+                        "real_name": "豆丁一",
+                        "count_finished": 0,
+                        "avatar_url": "http://cdn-portrait.test.17zuoye.net/upload/images/avatar/avatar_normal.gif"
+                    }
+                ]
+            }
+        ]
+    },
+    "message": "",
+    "error_code": 0
+}
